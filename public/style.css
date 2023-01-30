@@ -1,12 +1,19 @@
-body, h1, h2, h3, p, li, ul {
+/* Margem e padding reset */
+body, h1, h2, h3, h4, h5, p, li, ul {
   margin: 0;
   padding: 0;
 }
+/* Titulos reset */
+h1, h2, h3, h4, h5 {
+font-size: 1rem;
+font-weight: 400;
+}
 
+/* lista reset */
 li {
   list-style: none;
 }
-
+/* Links reset */
 a {
   text-decoration: none;
   color: inherit;
