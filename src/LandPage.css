@@ -1,0 +1,92 @@
+/* Arsenal 400 regular */
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+.container-landpage {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.bg-landpage {
+  background: linear-gradient(to left, rgba(230,230,230,.2) 20%, rgba(230,230,230,1) 50%, rgba(230,230,230,.2) 80%);
+  padding-top: 40px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
+}
+
+/* titles */
+.h1-title {
+  font-family: 'Arsenal', sans-serif;;
+  font-size: 60px;
+  color: #107910;
+  position: relative;
+}
+
+.title-landpage::before {
+  content: '';
+  width: 43px;
+  height: 35px;
+  background: url('./img/svg/titulo-dec.svg');
+  position: absolute;
+  top: 2rem;
+  left: 150px;
+}
+
+.title-landpage {
+  text-align: center;
+}
+
+/* pseudo quotes */
+.pseudoquote-landpage {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 420px;
+  color: #4E4E4E;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  padding: 30px;
+  background: radial-gradient(80% 60% at 50% 50%, rgba(222, 255, 216, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.pseudoquote-landpage::after,
+.pseudoquote-landpage::before {
+  content: '';
+  width: 150px;
+  height: 1px;
+  background: url('./img/svg/pseudoquote-dec.svg');
+  position: absolute;
+}
+
+.pseudoquote-landpage::before {
+  top: 10px;
+  left: 160px;
+}
+
+.pseudoquote-landpage::after {
+  top: 90px;
+  left: 100px;
+}
+
+.enfase {
+  color: #25AD25;
+}
+
+/* photo */
+.landpage-gato {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.landpage-gato img {
+  flex: 2;
+  max-width: 470px;
+}
+
+.landpage-gato p {
+  flex: 1;
+  width: 190px;
+  color: #4E4E4E;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
