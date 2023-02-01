@@ -17,7 +17,7 @@ const LandPage = () => {
         <div className="landpage-gato">
           <img src={landpagegato} alt="" />
           <div>
-            <p>Veja nossas diversas opções de plano para o seu objetivo!</p>
+            <p>Veja nossas diversas opções de planos para o seu objetivo!</p>
             <Btn
               text="Saiba Mais"
               padding="10px 20px"
