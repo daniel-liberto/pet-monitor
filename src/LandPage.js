@@ -1,5 +1,6 @@
 import React from 'react';
 import Btn from './Btn';
+import HeaderTitle from './HeaderTitle';
 import landpagegato from './img/fotos/landpage-cat.png';
 import './LandPage.css';
 
@@ -7,7 +8,12 @@ const LandPage = () => {
   return (
     <div className="bg-landpage">
       <div className="container-landpage">
-        <h1 className="h1-title title-landpage">Monitoramento de Animais</h1>
+        <HeaderTitle
+          text="Monitoramento de Animais"
+          hx="h1"
+          textAlign="center"
+          fontSize="60px"
+        />
         <p className="pseudoquote-landpage">
           Não importa a raça, tamanho ou idade, todos os animais merecem{' '}
           <span className="enfase">amor</span> e{' '}
