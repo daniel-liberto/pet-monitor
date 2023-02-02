@@ -1,3 +1,10 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 /* Margem e padding reset */
 body, h1, h2, h3, h4, h5, p, li, ul {
   margin: 0;

@@ -11,7 +11,7 @@
   background: url('./img/svg/titulo-dec.svg');
   background-position: left bottom;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   margin-left: -6px;
   background-repeat: no-repeat;
 }

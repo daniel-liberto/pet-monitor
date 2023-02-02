@@ -12,8 +12,6 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, .25);
 }
 
-
-
 /* pseudo quotes */
 .pseudoquote-landpage {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,12 +54,26 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  position: relative;
+}
+
+.landpage-gato::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(180deg, rgba(16, 121, 16, 0.2) 21.54%, rgba(16, 121, 16, 0) 70%);
+  width: 600px;
+  height: 200px;
+  left: 100px;
+  top: 80px;
+  border-radius: 50%;
 }
 
 .landpage-gato img {
   flex: 2;
   max-width: 470px;
+  z-index: 1;
 }
+
 
 .landpage-gato p {
   flex: 1;

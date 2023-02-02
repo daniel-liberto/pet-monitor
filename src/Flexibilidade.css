@@ -1,0 +1,10 @@
+.container-flexibilidade {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.intro-flexibilidade {
+  margin: 40px auto 0 auto;
+  color: #676767;
+  max-width: 700px;
+}
