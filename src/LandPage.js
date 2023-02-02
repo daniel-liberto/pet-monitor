@@ -16,9 +16,9 @@ const LandPage = () => {
         />
         <p className="pseudoquote-landpage">
           Não importa a raça, tamanho ou idade, todos os animais merecem{' '}
-          <span className="enfase">amor</span> e{' '}
-          <span className="enfase">cuidados</span> que só{' '}
-          <span className="enfase">nós</span> podemos oferecer.
+          <span className="enfase-quote">amor</span> e{' '}
+          <span className="enfase-quote">cuidados</span> que só{' '}
+          <span className="enfase-quote">nós</span> podemos oferecer.
         </p>
         <div className="landpage-gato">
           <img src={landpagegato} alt="" />

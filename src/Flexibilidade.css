@@ -8,3 +8,128 @@
   color: #676767;
   max-width: 700px;
 }
+
+.grid-flexibilidade {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 360px 360px;
+  gap: 30px 0;
+  justify-content: center;
+}
+
+.plano-desc {
+  width: 100%;
+  display: grid;
+}
+
+.bg-domestico {
+  background: linear-gradient(270deg, rgba(16, 121, 16, 0.15) 0%, rgba(232, 251, 232, 0) 100%);
+}
+
+.bg-campo {
+  background: linear-gradient(90deg, rgba(16, 121, 16, 0.15) 0%, rgba(232, 251, 232, 0) 100%);
+}
+
+.plano-desc h2 {
+  margin-top: 16px;
+}
+
+.quote-flexibilidade {
+  margin: 10px auto 0 auto;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #4E4E4E;
+  max-width: 300px;
+  position: relative;
+  line-height: 13px;
+  letter-spacing: .02rem;
+}
+.quote-flexibilidade::before,
+.quote-flexibilidade::after {
+  content: '';
+  width: 150px;
+  height: 1px;
+  background: url('./img/svg/pseudoquote-dec.svg');
+  position: absolute;
+}
+
+.quote-flexibilidade::before {
+  top: -10px;
+  left: 80px;
+}
+
+.quote-flexibilidade::after {
+  top: 46px;
+  left: 20px;
+}
+
+.text-call-flexibilidade {
+  align-self: end;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #364E34;
+}
+
+.plano-desc button {
+  justify-self: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.plano-desc button::after {
+  content: '';
+  background: url('./img/svg/btn-dec.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 75px;
+  height: 85px;
+  position: absolute;
+  top: -36px;
+  left: 80px;
+  z-index: -1;
+}
+
+.config-img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.config-img::before {
+  content: '';
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  top: 171px;
+  left: 0px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 6px 0px;
+}
+
+.campo-img.config-img::before {
+  content: 'Animais do Campo';
+}
+.domestico-img.config-img::before {
+  content: 'Animais Domésticos';
+}
+
+.outros-planos {
+  margin: 20px auto 40px auto;
+  text-align: center;
+  font-size: 10px;
+  color: #4E4E4E;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
