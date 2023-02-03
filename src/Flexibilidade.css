@@ -78,19 +78,6 @@
   position: relative;
 }
 
-.plano-desc button::after {
-  content: '';
-  background: url('./img/svg/btn-dec.svg');
-  background-repeat: no-repeat;
-  background-position: cover;
-  width: 75px;
-  height: 85px;
-  position: absolute;
-  top: -36px;
-  left: 80px;
-  z-index: -1;
-}
-
 .config-img {
   max-width: 100%;
   display: block;
@@ -125,6 +112,7 @@
 
 .outros-planos {
   margin: 20px auto 40px auto;
+  max-width: 400px;
   text-align: center;
   font-size: 10px;
   color: #4E4E4E;

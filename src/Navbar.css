@@ -19,6 +19,11 @@
   display: block;
   width: 220px;
   margin-left: 36px;
+  transition: .2s ease-in-out;
+}
+
+.logo:hover {
+  opacity: .7;
 }
 
 .navbar-menu ul {

@@ -8,6 +8,8 @@
   font-weight: 300;
   margin: 10px 0px;
   transition: .4s ease-in-out;
+  position: relative;
+  z-index: 1;
 }
 
 .btn:hover {
@@ -18,4 +20,17 @@
   box-shadow: 0px 1px 4px rgba(16, 121, 16, .6);
   color: #ffffff;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+.btn::after {
+  content: '';
+  background: url('./img/svg/btn-dec.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: absolute;
+  width: 75px;
+  height: 85px;
+  top: -90%;
+  left: 70%;
+  z-index: -1;
 }

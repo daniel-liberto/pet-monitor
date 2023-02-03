@@ -1,11 +1,12 @@
 import React from 'react';
 import './Btn.css';
 
-const Btn = ({ text, padding, fontSize, url }) => {
+const Btn = ({ text, padding, margin, fontSize, url }) => {
   const style = {
     padding: padding,
     text: text,
     fontSize: fontSize,
+    margin: margin,
   };
   return (
     <>

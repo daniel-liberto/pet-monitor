@@ -1,0 +1,89 @@
+.bg-monitoramento {
+  width: 100%;
+  /* background: #242424; */
+  background: linear-gradient(330.7deg, rgba(74,74,74, .9) 0%, rgba(8, 8, 8, 0.9) 45.28%);
+  z-index: -1;
+}
+
+.container-monitoramento {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container-monitoramento h1 {
+  z-index: 2;
+}
+
+.grid-monitoramento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px 0 0 0;
+  justify-items: center;
+  padding-bottom: 60px;
+}
+
+.subgrid-monitoramento {
+  display: grid;
+  gap: 60px 0;
+  place-self: center;
+}
+
+.subgrid-monitoramento p {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #E7E7E7;
+}
+
+.big-text-monitoramento {
+  max-width: 390px;
+  font-size: 21px;
+}
+
+.medium-text-monitoramento {
+  max-width: 260px;
+}
+
+.text-call-monitoramento {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+}
+
+.call-action-monitoramento  {
+display: grid;
+text-align: center;
+}
+
+.call-action-monitoramento button  {
+justify-self: center;
+align-self: start;
+}
+
+.monitoramento-app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+
+.phone-monitoramento {
+  max-width: 200px;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.sombra-monitoramento {
+  max-width: 300px;
+  margin-bottom: 20px;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.apps-monitoramento {
+  max-width: 180px;
+  transition: .3s ease-in-out;
+}
+
+.apps-monitoramento:hover {
+  /* opacity: .6; */
+  filter: invert(1);
+}
