@@ -1,4 +1,5 @@
 import React from 'react';
+import Avaliacao from './Avaliacao.js';
 import Flexibilidade from './Flexibilidade.js';
 import LandPage from './LandPage.js';
 import Monitoramento from './Monitoramento.js';
@@ -11,6 +12,7 @@ function App() {
       <LandPage />
       <Flexibilidade />
       <Monitoramento />
+      <Avaliacao />
     </div>
   );
 }
