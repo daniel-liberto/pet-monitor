@@ -9,7 +9,7 @@ import './Monitoramento.css';
 
 const Monitoramento = () => {
   return (
-    <div className="bg-monitoramento">
+    <section className="bg-monitoramento">
       <div className="container-monitoramento">
         <HeaderTitle
           text="Monitoramento em Tempo Real"
@@ -60,7 +60,7 @@ const Monitoramento = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ import './LandPage.css';
 
 const LandPage = () => {
   return (
-    <div className="bg-landpage">
+    <section className="bg-landpage">
       <div className="container-landpage">
         <HeaderTitle
           text="Monitoramento de Animais"
@@ -33,7 +33,7 @@ const LandPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
