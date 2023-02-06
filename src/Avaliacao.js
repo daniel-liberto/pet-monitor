@@ -13,7 +13,7 @@ const Avaliacao = () => {
         fontSize="60px"
         hx="h1"
         textAlign="center"
-        margin="60px 0 40px 0"
+        margin="60px auto 40px auto"
       />
       <p className="intro-avaliacao">
         Abaixo segue algumas avaliações de nossos queridos clientes e seus fiéis

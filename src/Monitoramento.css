@@ -3,6 +3,7 @@
   /* background: #242424; */
   background: linear-gradient(330.7deg, rgba(74,74,74, .9) 0%, rgba(8, 8, 8, 0.9) 45.28%);
   z-index: -1;
+  margin: 0 auto;
 }
 
 .container-monitoramento {
