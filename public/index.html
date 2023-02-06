@@ -12,6 +12,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+  <script>document.documentElement.className += ' js';</script>
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="stylesheet" href="%PUBLIC_URL%/style.css" />
   <!--
@@ -31,6 +32,7 @@
   <div class="container">
     <div id="root"></div>
   </div>
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
