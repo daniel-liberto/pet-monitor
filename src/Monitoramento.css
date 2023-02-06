@@ -18,6 +18,7 @@
 .grid-monitoramento {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px;
   margin: 40px 0 0 0;
   justify-items: center;
   padding-bottom: 60px;
@@ -67,9 +68,20 @@ align-self: start;
 }
 
 .phone-monitoramento {
-  max-width: 200px;
+  max-width: 300px;
+  width: 200px;
   grid-column: 1 / -1;
   justify-self: center;
+  animation: movePhone 2s infinite alternate;
+}
+
+@keyframes movePhone {
+  from {
+    transform:translate3d(0,20px,0);
+  }
+  to {
+    transform:translate3d(0,-20px,0);
+  }
 }
 
 .sombra-monitoramento {

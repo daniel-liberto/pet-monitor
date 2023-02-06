@@ -9,7 +9,7 @@
 .grid-avaliacao {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 40px 0;
+  margin: 40px 0 80px 0;
   gap: 40px 0;
 }
 
@@ -32,16 +32,26 @@
 
 .subgrid-avaliacao {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 400px 1fr 1fr;
   color: #EEEEEE;
   position: relative;
   max-width: 960px;
   margin: 0 auto;
 }
 
+.lado-direito.subgrid-avaliacao {
+  grid-template-columns: 1fr 1fr 400px;
+}
+
 .subgrid-avaliacao img {
-  max-width: 360px;
+  max-width: 400px;
+  width: 300px;
   justify-self: center;
+  transition: .3s ease-in-out;
+}
+
+.subgrid-avaliacao img:hover {
+  width: 360px;
 }
 
 .subgrid-avaliacao p {
