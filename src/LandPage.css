@@ -93,3 +93,9 @@
 .landpage-gato button {
   margin-left: 60px;
 }
+
+@media(min-width: 1240px) {
+  .container-landpage {
+    width: 1240px;
+  }
+}

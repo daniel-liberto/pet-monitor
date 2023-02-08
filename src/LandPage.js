@@ -3,26 +3,42 @@ import Btn from './Btn';
 import HeaderTitle from './HeaderTitle';
 import landpagegato from './img/fotos/landpage-cat.png';
 import './LandPage.css';
+import Animate from './script/simple-anime.js';
+import './script/simple-anime.css';
+// import { useLocation } from 'react-router-dom';
 
 const LandPage = () => {
+  // const location = useLocation();
+  React.useEffect(() => {
+    new Animate();
+  }, []);
+
   return (
     <section className="bg-landpage">
       <div className="container-landpage">
-        <HeaderTitle
-          text="Monitoramento de Animais"
-          hx="h1"
-          textAlign="center"
-          fontSize="60px"
-        />
-        <p className="pseudoquote-landpage">
+        <div className="fadeInDown" data-anime="300">
+          <HeaderTitle
+            text="Monitoramento de Animais"
+            hx="h1"
+            textAlign="center"
+            fontSize="60"
+            margin="0 auto"
+          />
+        </div>
+        <p className="pseudoquote-landpage" data-anime="1200">
           Não importa a raça, tamanho ou idade, todos os animais merecem{' '}
           <span className="enfase-quote">amor</span> e{' '}
           <span className="enfase-quote">cuidados</span> que só{' '}
           <span className="enfase-quote">nós</span> podemos oferecer.
         </p>
         <div className="landpage-gato">
-          <img src={landpagegato} alt="" />
-          <div>
+          <img
+            className="fadeInUp"
+            data-anime="450"
+            src={landpagegato}
+            alt=""
+          />
+          <div className="fadeInRight" data-anime="900">
             <p>Veja nossas diversas opções de planos para o seu objetivo!</p>
             <Btn
               text="Saiba Mais"

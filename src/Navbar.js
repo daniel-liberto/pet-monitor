@@ -11,25 +11,23 @@ const Navbar = () => {
             <img src={logoPetMonitor} alt="Logomarca da empresa Pet Monitor" />
           </a>
         </div>
-        <div className="navbar-menu">
-          <ul>
-            <li>
-              <a href="/">Info</a>
-            </li>
-            <li>
-              <a href="/">Monitoramento</a>
-            </li>
-            <li>
-              <a href="/">Sobre</a>
-            </li>
-            <li>
-              <a href="/">Contato</a>
-            </li>
-            <li>
-              <a href="/">Login</a>
-            </li>
-          </ul>
-        </div>
+        <ul className="navbar-menu">
+          <li>
+            <a href="/">Info</a>
+          </li>
+          <li>
+            <a href="/">Monitoramento</a>
+          </li>
+          <li>
+            <a href="/">Sobre</a>
+          </li>
+          <li>
+            <a href="/">Contato</a>
+          </li>
+          <li>
+            <a href="/">Login</a>
+          </li>
+        </ul>
       </div>
     </div>
   );

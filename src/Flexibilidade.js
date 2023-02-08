@@ -12,7 +12,7 @@ const Flexibilidade = () => {
         <HeaderTitle
           hx="h1"
           text="Flexibilidade Total"
-          fontSize="60px"
+          fontSize="60"
           textAlign="center"
           margin="60px 0 0 0 "
         />
