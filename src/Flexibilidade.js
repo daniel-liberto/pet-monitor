@@ -28,6 +28,7 @@ const Flexibilidade = () => {
           <div
             className="plano-desc bg-domestico fadeInRight"
             data-anime="scroll"
+            data-anime-time="100"
           >
             <HeaderTitle
               hx="h2"
@@ -51,6 +52,7 @@ const Flexibilidade = () => {
           <div
             className="config-img domestico-img fadeInRight"
             data-anime="scroll"
+            data-anime-time="100"
           >
             <img src={animalDomestico} alt="" />
           </div>
