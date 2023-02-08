@@ -14,7 +14,7 @@ const Footer = () => {
             <HeaderTitle
               text="Nossa História"
               hx="h3"
-              fontSize="30px"
+              fontSize="30"
               padding="40px 0"
             />
             <div className="informativo-footer">
@@ -31,7 +31,7 @@ const Footer = () => {
             <HeaderTitle
               text="Contato"
               hx="h3"
-              fontSize="30px"
+              fontSize="30"
               padding="40px 0"
             />
             <div className="informativo-footer">
@@ -47,7 +47,7 @@ const Footer = () => {
             <HeaderTitle
               text="Redes Sociais"
               hx="h3"
-              fontSize="30px"
+              fontSize="30"
               padding="40px 0"
             />
             <div className="informativo-footer">
