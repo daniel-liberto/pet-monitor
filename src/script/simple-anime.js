@@ -14,9 +14,10 @@ export default function initAnimacaoScroll() {
               section.classList.add('ativo');
             }, time);
           }
-        } else if (section.classList.contains('ativo')) {
-          section.classList.remove('ativo');
         }
+        // else if (section.classList.contains('ativo')) {
+        //   section.classList.remove('ativo');
+        // }
       });
     }
 

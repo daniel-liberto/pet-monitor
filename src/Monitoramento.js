@@ -13,7 +13,7 @@ const Monitoramento = () => {
       <div className="container-monitoramento">
         <HeaderTitle
           text="Monitoramento em Tempo Real"
-          fontSize="60px"
+          fontSize="60"
           textAlign="center"
           hx="h1"
           padding="60px 0 40px 0"

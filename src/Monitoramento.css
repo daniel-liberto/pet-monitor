@@ -100,3 +100,9 @@ align-self: start;
   /* opacity: .6; */
   filter: invert(1);
 }
+
+@media (min-width: 1240px) {
+  .container-monitoramento {
+    width: 1240px;
+  }
+}
