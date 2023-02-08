@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
 
 .container-landpage {
-  width: 960px;
-  margin: 0 auto;
+  width: 60rem;
+  margin: 3.75rem auto 0 auto;
 }
 
 .bg-landpage {
   background: linear-gradient(to left, rgba(255,255,255,1) 20%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 80%);
-  padding-top: 40px;
+  padding-top: 2.5rem;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, .15);
@@ -18,33 +18,34 @@
 .pseudoquote-landpage {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  width: 420px;
+  font-weight: 400;
+  width: 26.25rem;
   color: #4E4E4E;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   position: relative;
-  padding: 30px;
-  background: radial-gradient(80% 60% at 50% 50%, rgba(222, 255, 216, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+  padding: 1.875rem;
+  background: radial-gradient(80% 60% at 50% 50%, rgba(222, 255, 216, 0.3) 0%, rgba(217, 217, 217, 0) 100%);
 }
 
 .pseudoquote-landpage::after,
 .pseudoquote-landpage::before {
   content: '';
-  width: 150px;
-  height: 1px;
-  background: url('./img/svg/pseudoquote-dec.svg');
+  width: 9.375rem;
+  height: 0.063rem;
+  background: linear-gradient(90deg, rgba(0, 255, 0, 0) 0%, #00FF00 51.35%, rgba(0, 255, 0, 0) 100%);
   position: absolute;
 }
 
 .pseudoquote-landpage::before {
-  top: 10px;
-  left: 160px;
+  top: 0.625rem;
+  left: 10rem;
 }
 
 .pseudoquote-landpage::after {
-  top: 90px;
-  left: 100px;
+  top: 5.625rem;
+  left: 6.25rem;
 }
 
 .enfase {
@@ -68,34 +69,68 @@
   content: '';
   position: absolute;
   background: linear-gradient(180deg, rgba(16, 121, 16, 0.2) 21.54%, rgba(16, 121, 16, 0) 70%);
-  width: 600px;
-  height: 200px;
-  left: 100px;
-  top: 80px;
+  width: 37.5rem;
+  height: 12.5rem;
+  left: 6.25rem;
+  top: 5rem;
   border-radius: 50%;
 }
 
 .landpage-gato img {
   flex: 2;
-  max-width: 470px;
+  max-width: 29.375rem;
   z-index: 1;
 }
 
-
 .landpage-gato p {
   flex: 1;
-  width: 170px;
+  width: 10.625rem;
   color: #4E4E4E;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1rem;
 }
 
 .landpage-gato button {
-  margin-left: 60px;
+  margin-left: 3.75rem;
 }
 
 @media(min-width: 1240px) {
   .container-landpage {
-    width: 1240px;
+    width: 77.5rem;
+  }
+  .pseudoquote-landpage {
+    margin: 7.5rem auto 7.5rem auto;
+    font-size: 1.4rem;
+    width: 36rem;
+  }
+  .pseudoquote-landpage::after,
+  .pseudoquote-landpage::before {
+    width: 16rem;
+    height: 0.10rem;
+  }
+  .pseudoquote-landpage::before {
+    top: 0.5rem;
+    left: 16rem;
+  }
+  .pseudoquote-landpage::after {
+    top: 6.6rem;
+    left: 8rem;
+  }
+  .landpage-gato img {
+    max-width: 36rem;
+  }
+  .landpage-gato::before {
+    top: 6.5rem;
+    left: 10rem;
+  }
+  .landpage-gato p {
+    font-size: 1rem;
+    width: 16rem;
+    line-height: 1.25rem;
+  }
+  .landpage-gato button {
+    margin-top: 1rem;
+    margin-left: 6.25rem;
   }
 }

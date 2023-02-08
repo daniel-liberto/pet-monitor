@@ -7,9 +7,9 @@ const HeaderTitle = ({ hx, text, textAlign, margin, padding, fontSize }) => {
   const [redimensionador, useRedimensionador] = React.useState(null);
 
   function CheckForWindowResize() {
-    if (window.innerWidth <= 600) {
+    if (window.innerWidth <= 680) {
       fontSize = fontSize * 0.5 + 'px';
-    } else if (window.innerWidth >= 601 && window.innerWidth <= 960) {
+    } else if (window.innerWidth >= 681 && window.innerWidth <= 960) {
       fontSize = fontSize * 0.8 + 'px';
     } else if (window.innerWidth >= 961 && window.innerWidth <= 1239) {
       fontSize = fontSize + 'px';

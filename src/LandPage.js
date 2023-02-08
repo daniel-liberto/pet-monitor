@@ -31,7 +31,7 @@ const LandPage = () => {
           <span className="enfase-quote">cuidados</span> que só{' '}
           <span className="enfase-quote">nós</span> podemos oferecer.
         </p>
-        <div className="landpage-gato">
+        <div className="landpage-gato" data-anime="500">
           <img
             className="fadeInUp"
             data-anime="450"

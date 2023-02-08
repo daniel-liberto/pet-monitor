@@ -3,7 +3,7 @@
   font-family: 'Arsenal', sans-serif;;
   color: #107910;
   position: relative;
-  /* max-width: 960px; */
+  cursor: context-menu;
 }
 
 .title::before {

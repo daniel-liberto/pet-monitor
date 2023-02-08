@@ -29,7 +29,7 @@ const Flexibilidade = () => {
             <HeaderTitle
               hx="h2"
               text="Plano Doméstico"
-              fontSize="30px"
+              fontSize="30"
               textAlign="center"
             />
             <p className="quote-flexibilidade">
@@ -55,7 +55,7 @@ const Flexibilidade = () => {
             <HeaderTitle
               hx="h2"
               text="Plano Rural"
-              fontSize="30px"
+              fontSize="30"
               textAlign="center"
             />
             <p className="quote-flexibilidade">
