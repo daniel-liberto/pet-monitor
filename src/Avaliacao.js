@@ -10,7 +10,7 @@ const Avaliacao = () => {
     <section>
       <HeaderTitle
         text="Avaliações de Clientes"
-        fontSize="60px"
+        fontSize="60"
         hx="h1"
         textAlign="center"
         margin="60px auto 40px auto"
