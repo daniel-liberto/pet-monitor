@@ -16,7 +16,7 @@ const LandPage = () => {
   return (
     <section className="bg-landpage">
       <div className="container-landpage">
-        <div className="fadeInDown" data-anime="300">
+        <div className="fadeInDown" data-anime="scroll" data-anime-time="300">
           <HeaderTitle
             text="Monitoramento de Animais"
             hx="h1"
@@ -25,20 +25,29 @@ const LandPage = () => {
             margin="0 auto"
           />
         </div>
-        <p className="pseudoquote-landpage" data-anime="1200">
+        <p
+          className="pseudoquote-landpage"
+          data-anime="scroll"
+          data-anime-time="600"
+        >
           Não importa a raça, tamanho ou idade, todos os animais merecem{' '}
           <span className="enfase-quote">amor</span> e{' '}
           <span className="enfase-quote">cuidados</span> que só{' '}
           <span className="enfase-quote">nós</span> podemos oferecer.
         </p>
-        <div className="landpage-gato" data-anime="500">
+        <div className="landpage-gato">
           <img
             className="fadeInUp"
-            data-anime="450"
+            data-anime="scroll"
+            data-anime-time="450"
             src={landpagegato}
             alt=""
           />
-          <div className="fadeInRight" data-anime="900">
+          <div
+            className="fadeInRight"
+            data-anime="scroll"
+            data-anime-time="900"
+          >
             <p>Veja nossas diversas opções de planos para o seu objetivo!</p>
             <Btn
               text="Saiba Mais"

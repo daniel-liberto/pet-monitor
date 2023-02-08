@@ -1,30 +1,28 @@
-export default class Animate {
-  constructor() {
-    this.items = document.querySelectorAll('[data-anime]');
-    this.init();
-  }
-  animateItems() {
-    this.items.forEach((item) => {
-      const time = Number(item.getAttribute('data-anime'));
-      if (!isNaN(time)) {
-        setTimeout(() => {
-          item.classList.add('anime');
-        }, time);
-      }
-    });
-  }
-  handleVisibility() {
-    if (typeof document.visibilityState !== 'undefined') {
-      if (document.visibilityState === 'visible') {
-        this.animateItems();
-      }
-    } else {
-      this.animateItems();
+export default function initAnimacaoScroll() {
+  const sections = document.querySelectorAll('[data-anime="scroll"]');
+  if (sections.length) {
+    const windowMetade = window.innerHeight * 0.7;
+
+    function animaScroll() {
+      sections.forEach((section) => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const isSectionVisible = sectionTop - windowMetade < 0;
+        const time = Number(section.getAttribute('data-anime-time'));
+        if (isSectionVisible) {
+          if (!isNaN(time)) {
+            setTimeout(() => {
+              section.classList.add('ativo');
+            }, time);
+          }
+        } else if (section.classList.contains('ativo')) {
+          section.classList.remove('ativo');
+        }
+      });
     }
-  }
-  init() {
-    this.handleVisibility = this.handleVisibility.bind(this);
-    this.handleVisibility();
-    document.addEventListener('visibilitychange', this.handleVisibility);
+
+    animaScroll();
+
+    window.addEventListener('scroll', animaScroll);
   }
 }
+// initAnimacaoScroll();

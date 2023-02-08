@@ -25,7 +25,10 @@ const Flexibilidade = () => {
           independente se esteja no campo ou em área urbana.
         </p>
         <div className="grid-flexibilidade">
-          <div className="plano-desc bg-domestico">
+          <div
+            className="plano-desc bg-domestico fadeInRight"
+            data-anime="scroll"
+          >
             <HeaderTitle
               hx="h2"
               text="Plano Doméstico"
@@ -43,15 +46,26 @@ const Flexibilidade = () => {
             <p className="text-call-flexibilidade">
               Proteja hoje mesmo seu membro valioso da família!
             </p>
-            <Btn text="Conferir planos" padding="6px 12px" />
+            <Btn text="Conferir planos" padding="0px 12px" />
           </div>
-          <div className="config-img domestico-img">
+          <div
+            className="config-img domestico-img fadeInRight"
+            data-anime="scroll"
+          >
             <img src={animalDomestico} alt="" />
           </div>
-          <div className="config-img campo-img">
+          <div
+            className="config-img campo-img fadeInLeft"
+            data-anime="scroll"
+            data-anime-time="150"
+          >
             <img src={animalCampo} alt="" />
           </div>
-          <div className="plano-desc bg-campo">
+          <div
+            className="plano-desc bg-campo fadeInLeft"
+            data-anime="scroll"
+            data-anime-time="150"
+          >
             <HeaderTitle
               hx="h2"
               text="Plano Rural"
@@ -67,7 +81,7 @@ const Flexibilidade = () => {
             <p className="text-call-flexibilidade">
               Confira já os nossos planos para os seus negócios!
             </p>
-            <Btn text="Conferir planos" padding="6px 12px" />
+            <Btn text="Conferir planos" padding="0px 12px" />
           </div>
         </div>
         <div>
