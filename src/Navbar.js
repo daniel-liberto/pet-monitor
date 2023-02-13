@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logoPetMonitor from './img/svg/logo-petmonitor.svg';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -13,19 +14,19 @@ const Navbar = () => {
         </div>
         <ul className="navbar-menu">
           <li>
-            <a href="/">Info</a>
+            <NavLink to="info">Info</NavLink>
           </li>
           <li>
-            <a href="/">Monitoramento</a>
+            <NavLink to="monitoramento">Monitoramento</NavLink>
           </li>
           <li>
-            <a href="/">Sobre</a>
+            <NavLink to="sobre">Sobre</NavLink>
           </li>
           <li>
-            <a href="/">Contato</a>
+            <NavLink to="contato">Contato</NavLink>
           </li>
           <li>
-            <a href="/">Login</a>
+            <NavLink to="login">Login</NavLink>
           </li>
         </ul>
       </div>
