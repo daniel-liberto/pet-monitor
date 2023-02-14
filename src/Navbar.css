@@ -98,6 +98,16 @@ html {
   border-color: #107910;
 }
 
+.navbar-menu li a.active {
+  color: #107910;
+  border-bottom: 1px solid #107910;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-menu li a:hover.active {
+  border-bottom: 1px solid transparent;
+}
+
 @media (min-width: 1240px) {
   .container-navbar {
     width: 1240px;

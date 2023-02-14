@@ -1,0 +1,31 @@
+.bg-banner {
+  margin-top: 11px;
+  background: radial-gradient(100% 1947.29% at 0% 50.18%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0) 100%);
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  align-self: end;
+  width: 100%;
+  padding: 16px 0;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.5) ;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+@media (min-width: 1240px) {
+  .banner {
+    max-width: 1240px;
+  }
+  .banner img {
+    width: 1240px;
+  }
+}
