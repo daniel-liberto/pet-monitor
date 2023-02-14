@@ -12,7 +12,7 @@
 .title::before {
   content: '__';
   color: transparent;
-  background: url('./img/svg/titulo-dec.svg');
+  background: url('../img/svg/titulo-dec.svg');
   background-position: left bottom;
   background-size: cover;
   position: absolute;

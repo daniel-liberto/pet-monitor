@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Avaliacao from './Avaliacao.js';
 import Flexibilidade from './Flexibilidade.js';
 import Footer from './Footer.js';

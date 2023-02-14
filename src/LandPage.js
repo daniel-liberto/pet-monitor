@@ -1,6 +1,6 @@
 import React from 'react';
-import Btn from './Btn';
-import HeaderTitle from './HeaderTitle';
+import Btn from './global/Btn';
+import HeaderTitle from './global/HeaderTitle';
 import landpagegato from './img/fotos/landpage-cat.png';
 import './LandPage.css';
 import Animate from './script/simple-anime.js';

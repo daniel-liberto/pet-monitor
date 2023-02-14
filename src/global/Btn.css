@@ -13,7 +13,7 @@
 }
 
 .btn:hover {
-  background: url('./img/svg/logo-icon.svg');
+  background: url('../img/svg/logo-icon.svg');
   background-color:  rgba(16, 200, 16, .2);
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
 .btn::after {
   content: '';
-  background: url('./img/svg/btn-dec.svg');
+  background: url('../img/svg/btn-dec.svg');
   background-repeat: no-repeat;
   background-position: cover;
   position: absolute;

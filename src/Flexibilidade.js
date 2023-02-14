@@ -1,9 +1,9 @@
 import React from 'react';
-import HeaderTitle from './HeaderTitle';
+import HeaderTitle from './global/HeaderTitle';
 import './Flexibilidade.css';
 import animalDomestico from './img/fotos/animalDomestico.jpg';
 import animalCampo from './img/fotos/animalCampo.jpg';
-import Btn from './Btn';
+import Btn from './global/Btn';
 
 const Flexibilidade = () => {
   return (

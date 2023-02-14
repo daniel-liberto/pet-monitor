@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderTitle from './HeaderTitle';
+import HeaderTitle from './global/HeaderTitle';
 import './Footer.css';
 import outlook from './img/svg/outlook.svg';
 import linkedin from './img/svg/linkedin.svg';

@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderTitle from './HeaderTitle';
+import HeaderTitle from './global/HeaderTitle';
 import './Avaliacao.css';
 import cliente1 from './img/fotos/cliente1.png';
 import cliente2 from './img/fotos/cliente2.png';
