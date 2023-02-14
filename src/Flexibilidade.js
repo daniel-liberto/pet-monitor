@@ -15,6 +15,8 @@ const Flexibilidade = () => {
           fontSize="60"
           textAlign="center"
           margin="60px 0 0 0 "
+          color="#107910"
+          content="'__'"
         />
         <p className="intro-flexibilidade">
           Nós da Pet Monitor trabalhamos com todos os tipos de animais,{' '}
@@ -35,6 +37,8 @@ const Flexibilidade = () => {
               text="Plano Doméstico"
               fontSize="30"
               textAlign="center"
+              color="#107910"
+              content="'__'"
             />
             <p className="quote-flexibilidade">
               Todos sabem que não somos nós que escolhemos nossos animais de
@@ -73,6 +77,8 @@ const Flexibilidade = () => {
               text="Plano Rural"
               fontSize="30"
               textAlign="center"
+              color="#107910"
+              content="'__'"
             />
             <p className="quote-flexibilidade">
               Qualquer animal do campo independente de sua função, é muito

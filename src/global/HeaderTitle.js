@@ -2,7 +2,16 @@ import React from 'react';
 import { useRef } from 'react';
 import './HeaderTitle.css';
 
-const HeaderTitle = ({ hx, text, textAlign, margin, padding, fontSize }) => {
+const HeaderTitle = ({
+  hx,
+  text,
+  textAlign,
+  margin,
+  padding,
+  fontSize,
+  color,
+  content,
+}) => {
   const CustomTag = `${hx}`;
   const [redimensionador, useRedimensionador] = React.useState(null);
 
@@ -32,6 +41,8 @@ const HeaderTitle = ({ hx, text, textAlign, margin, padding, fontSize }) => {
     margin: margin,
     padding: padding,
     fontSize: redimensionador,
+    color: color,
+    '--content': content,
   };
   return (
     <>

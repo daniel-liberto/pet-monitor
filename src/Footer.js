@@ -16,6 +16,8 @@ const Footer = () => {
               hx="h3"
               fontSize="30"
               padding="40px 0"
+              color="#107910"
+              content="'__'"
             />
             <div className="informativo-footer">
               <p>Desde o começo buscamos:</p>
@@ -33,6 +35,8 @@ const Footer = () => {
               hx="h3"
               fontSize="30"
               padding="40px 0"
+              color="#107910"
+              content="'__'"
             />
             <div className="informativo-footer">
               <p>Informações de contato:</p>
@@ -49,6 +53,8 @@ const Footer = () => {
               hx="h3"
               fontSize="30"
               padding="40px 0"
+              color="#107910"
+              content="'__'"
             />
             <div className="informativo-footer">
               <p>Nossas redes sociais:</p>

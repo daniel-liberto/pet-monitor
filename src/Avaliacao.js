@@ -14,6 +14,8 @@ const Avaliacao = () => {
         hx="h1"
         textAlign="center"
         margin="60px auto 40px auto"
+        color="#107910"
+        content="'__'"
       />
       <p className="intro-avaliacao">
         Abaixo segue algumas avaliações de nossos queridos clientes e seus fiéis

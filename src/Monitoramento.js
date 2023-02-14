@@ -17,6 +17,8 @@ const Monitoramento = () => {
           textAlign="center"
           hx="h1"
           padding="60px 0 40px 0"
+          color="#107910"
+          content="'__'"
         />
         <div className="grid-monitoramento">
           <div className="subgrid-monitoramento">

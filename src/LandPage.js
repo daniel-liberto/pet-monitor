@@ -23,6 +23,8 @@ const LandPage = () => {
             textAlign="center"
             fontSize="60"
             margin="0 auto"
+            color="#107910"
+            content="'__'"
           />
         </div>
         <p
