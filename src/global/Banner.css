@@ -1,6 +1,8 @@
 .bg-banner {
   margin-top: 11px;
-  background: radial-gradient(100% 1947.29% at 0% 50.18%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0) 100%);
+  background: radial-gradient(100% 1947.29% at 0% 50.18%, rgba(255, 255, 255, 1) 2%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, rgba(255, 255, 255, 1) 99%);
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .banner {

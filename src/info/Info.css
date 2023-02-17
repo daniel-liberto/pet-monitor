@@ -326,15 +326,8 @@ height: 280px;
 }
 
 @media (min-width: 1240px) {
-  .container-rastreio {
-    width: 1240px;
-  }
-  .info-img::before {
-    top: 335px;
-    left: 6px;
-  }
   .info-grid-introplano {
-    max-width: 1080px;
+    margin-top: 60px;
   }
   .info-introplano-text {
     margin: 180px auto 120px auto;
