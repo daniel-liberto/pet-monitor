@@ -118,3 +118,10 @@
   grid-column: 1 / 3;
   align-self: end;
 }
+
+.text-call-avaliacao {
+  max-width: 400px;
+  margin: 20px auto 0 auto;
+  display: grid;
+  justify-items: center;
+}

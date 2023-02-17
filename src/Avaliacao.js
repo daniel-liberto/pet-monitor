@@ -4,6 +4,7 @@ import './Avaliacao.css';
 import cliente1 from './img/fotos/cliente1.png';
 import cliente2 from './img/fotos/cliente2.png';
 import cliente3 from './img/fotos/cliente3.png';
+import Btn from './global/Btn';
 
 const Avaliacao = () => {
   return (
@@ -65,6 +66,10 @@ const Avaliacao = () => {
             </p>
             <h3 className="autor-avaliacao">Thiago e Aurora</h3>
           </div>
+        </div>
+        <div className="text-call-avaliacao">
+          <p>Confira já os nossos planos para os seus negócios!</p>
+          <Btn text="Conferir planos" padding="16px 30px" fontSize="24px" />
         </div>
       </div>
     </section>
