@@ -86,7 +86,7 @@ const Info = () => {
             text="Tabela de Preços"
             fontSize="46"
             color="#107910"
-            content="'__'"
+            content="''"
             margin="60px auto 30px auto"
             textAlign="center"
           />
@@ -198,7 +198,7 @@ const Info = () => {
         </div>
       </section>
       <section id="animalcampo">
-        <div className="info-intro-bg">
+        <div className="info-intro-bg colorcampo">
           <HeaderTitle
             hx="h1"
             text="Animais do Campo"
@@ -216,8 +216,9 @@ const Info = () => {
         <div>
           <p className="info-introplano-text">
             Para você que precisa de{' '}
-            <span className="enfase">controle e segurança</span> de seus
-            negócios rurais <span className="enfase">na palma da sua mão!</span>
+            <span className="enfase-campo">controle e segurança</span> de seus
+            negócios rurais{' '}
+            <span className="enfase-campo">na palma da sua mão!</span>
             <br></br> Escolha um de nossos planos abaixo na tabela de preços!
           </p>
         </div>
@@ -226,8 +227,8 @@ const Info = () => {
             hx="h2"
             text="Tabela de Preços"
             fontSize="46"
-            color="#107910"
-            content="'__'"
+            color="rgba(80, 40, 80, 1)"
+            content="''"
             margin="60px auto 30px auto"
             textAlign="center"
           />
@@ -236,15 +237,15 @@ const Info = () => {
             considerados rurais, por favor consulte a tabela abaixo.
           </p>
         </div>
-        <div className="info-plano-bg">
+        <div className="info-plano-bg colorcampo">
           <div className="info-plano-grid">
-            <div className="info-plano-standard info-plano-subgrid">
+            <div className="info-plano-standard info-plano-subgrid camposection">
               <div>
                 <HeaderTitle
                   hx="h3"
                   text="Plano Standard"
                   fontSize="30"
-                  color="#107910"
+                  color="rgba(80, 40, 80, 1)"
                   content="''"
                   margin="0px auto"
                   textAlign="center"
@@ -268,11 +269,12 @@ const Info = () => {
                   text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
+                  backgroundColor="#50321E"
                   url="/"
                 />
               </div>
             </div>
-            <div className="info-plano-premium info-plano-subgrid">
+            <div className="info-plano-premium info-plano-subgrid camposection">
               <div>
                 <HeaderTitle
                   hx="h3"
@@ -302,6 +304,7 @@ const Info = () => {
                   text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
+                  backgroundColor="#50321E"
                   url="/"
                 />
               </div>
@@ -312,7 +315,7 @@ const Info = () => {
           <p className="info-pre-porque">
             Veja abaixo mais sobre o porque utilizar rastreio em animais rurais.
           </p>
-          <div className="info-porque-bg">
+          <div className="info-porque-bg camposection">
             <div className="info-porque">
               <HeaderTitle
                 hx="h3"
@@ -327,15 +330,15 @@ const Info = () => {
             </div>
             <p className="info-hide">
               O rastreamento de rebanhos veio para{' '}
-              <span className="enfase">
+              <span className="enfase-campo">
                 facilitar o controle e a mensuração de dados
               </span>{' '}
               sobre os animais, porém percebemos como o uso da tecnologia
               poderia auxiliar para uma{' '}
-              <span className="enfase">melhora nessa mensuração</span>. Esse
-              serviço proporciona{' '}
-              <span className="enfase">diversas outras facilidades</span> para
-              os responsáveis pela gestão dos animais.
+              <span className="enfase-campo">melhora nessa mensuração</span>.
+              Esse serviço proporciona{' '}
+              <span className="enfase-campo">diversas outras facilidades</span>{' '}
+              para os responsáveis pela gestão dos animais.
             </p>
           </div>
         </div>

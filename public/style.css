@@ -64,3 +64,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.enfase {
+  color: #25AD25;
+}
+
+.enfase-quote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #25AD25;
+}
+
+.enfase-campo {
+  color: #AB6D43;
+}
+
+.enfase-campo-quote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #AB6D43;
+}
