@@ -8,6 +8,7 @@ import Navbar from './Navbar.js';
 import initAnimacaoScroll from './script/simple-anime.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Info from './info/Info.js';
+import ScrollToTop from './script/ScrollToTop.js';
 
 function App() {
   React.useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
     <>
       <BrowserRouter>
         <Route path="/" element={<Navbar />} />
+        <ScrollToTop />
         <Routes>
           <Route
             path="/"
