@@ -1,0 +1,101 @@
+.contato-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contato-container p {
+  font-size: 24px;
+  color: #676767;
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto 120px auto;
+  justify-items: center;
+  position: relative;
+}
+.contato-grid form::after {
+  content: '';
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-right: 1px solid #107910;
+}
+
+.contato-grid form {
+  width: 400px;
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.contato-grid label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  width: 100%;
+}
+
+.contato-grid input,
+.contato-grid textarea {
+  border: 1px solid #107910;
+  border-radius: 4px;
+  background-color: rgba(16, 121, 16, .05);
+  resize: none;
+  padding: 8px;
+  width: 85%;
+  transition: 0.3s ease;
+}
+
+.contato-grid input:focus,
+.contato-grid textarea:focus {
+  outline: none;
+  border: 1px solid #00CA00;
+  box-shadow: 0px 0px 4px rgba(0, 202, 0, .8);
+}
+
+.contato-grid input:hover,
+.contato-grid textarea:hover {
+  border: 1px solid #00CA00;
+  box-shadow: 0px 0px 4px rgba(0, 202, 0, .8);
+}
+
+.contato-grid button {
+  display: block;
+}
+
+.contato-grid button::after {
+  content: '';
+  background: url('../img/svg/btn-dec.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: absolute;
+  width: 75px;
+  height: 85px;
+  top: 30%;
+  left: 100%;
+  z-index: 0;
+}
+
+.contato-lista li {
+  font-size: 20px;
+  color: #676767;
+  list-style: disc;
+}
+
+.contato-redes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato-redes li a img {
+  filter: brightness(.1);
+}
+
+.contato-redes li a img:hover {
+  filter: brightness(1);
+}
