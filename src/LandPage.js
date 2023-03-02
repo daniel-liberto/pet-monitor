@@ -3,6 +3,7 @@ import Btn from './global/Btn';
 import HeaderTitle from './global/HeaderTitle';
 import landpagegato from './img/fotos/landpage-cat.png';
 import './LandPage.css';
+import './mobile/LandPageMobile.css';
 import Animate from './script/simple-anime.js';
 import './script/simple-anime.css';
 // import { useLocation } from 'react-router-dom';

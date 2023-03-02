@@ -1,0 +1,39 @@
+@media (max-width: 480px) {
+
+  .bg-landpage {
+    padding-top: 1px;
+    background: linear-gradient(179.59deg, rgba(217, 217, 217, 0) 64.78%, rgba(16, 121, 16, 0.23) 99.65%);
+  }
+  .container-landpage {
+    width: 320px;
+    margin: 40px auto 0 auto;
+  }
+  .pseudoquote-landpage {
+    font-size: 14px;
+    width: 80%;
+    margin: 80px auto;
+  }
+  .pseudoquote-landpage::before {
+    left: 8rem;
+  }
+  .pseudoquote-landpage::after {
+    top: 6.25rem;
+    height: 0.062rem;
+    left: 2.75rem;
+  }
+  .landpage-gato div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+  }
+  .landpage-gato img, .landpage-gato::before {
+    display: none;
+  }
+  .landpage-gato p {
+    text-align: center;
+    width: 16rem;
+  }
+  .landpage-gato button {
+    margin: 0 auto 40px auto;
+  }
+}
