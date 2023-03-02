@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderTitle from './global/HeaderTitle';
 import './Flexibilidade.css';
+import './mobile/FlexibilidadeMobile.css';
 import animalDomestico from './img/fotos/animalDomestico.jpg';
 import animalCampo from './img/fotos/animalCampo.jpg';
 import Btn from './global/Btn';
@@ -24,7 +25,9 @@ const Flexibilidade = () => {
             por que para nós, aquilo que mais importa é a segurança dos seus
             animais
           </span>{' '}
-          independente se esteja no campo ou em área urbana.
+          <span className="skip-mobile">
+            independente se esteja no campo ou em área urbana.
+          </span>
         </p>
         <div className="grid-flexibilidade">
           <div
@@ -35,7 +38,7 @@ const Flexibilidade = () => {
             <HeaderTitle
               hx="h2"
               text="Plano Doméstico"
-              fontSize="30"
+              fontSize="42"
               textAlign="center"
               color="#107910"
               content="'__'"
@@ -75,7 +78,7 @@ const Flexibilidade = () => {
             <HeaderTitle
               hx="h2"
               text="Plano Rural"
-              fontSize="30"
+              fontSize="42"
               textAlign="center"
               color="#107910"
               content="'__'"
