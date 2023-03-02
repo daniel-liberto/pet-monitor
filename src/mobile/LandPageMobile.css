@@ -5,13 +5,17 @@
     background: linear-gradient(179.59deg, rgba(217, 217, 217, 0) 64.78%, rgba(16, 121, 16, 0.23) 99.65%);
   }
   .container-landpage {
-    width: 320px;
+    max-width: 320px;
+    width: auto;
     margin: 40px auto 0 auto;
   }
   .pseudoquote-landpage {
     font-size: 14px;
-    width: 80%;
     margin: 80px auto;
+    max-width: 100%;
+    width: auto;
+    padding: 30px 20px;
+    text-align: center;
   }
   .pseudoquote-landpage::before {
     left: 8rem;
