@@ -6,6 +6,7 @@ import sombraPhone from './img/fotos/sombra-phone.png';
 import googleplay from './img/fotos/googleplay.png';
 import appstore from './img/fotos/appstore.png';
 import './Monitoramento.css';
+import './mobile/MonitoramentoMobile.css';
 
 const Monitoramento = () => {
   return (
