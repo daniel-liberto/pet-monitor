@@ -17,7 +17,7 @@ const HeaderTitle = ({
 
   function CheckForWindowResize() {
     if (window.innerWidth <= 680) {
-      fontSize = fontSize * 0.5 + 'px';
+      fontSize = fontSize * 0.6 + 'px';
     } else if (window.innerWidth >= 681 && window.innerWidth <= 960) {
       fontSize = fontSize * 0.8 + 'px';
     } else if (window.innerWidth >= 961 && window.innerWidth <= 1239) {
