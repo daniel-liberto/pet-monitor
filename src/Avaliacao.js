@@ -5,6 +5,7 @@ import cliente1 from './img/fotos/cliente1.png';
 import cliente2 from './img/fotos/cliente2.png';
 import cliente3 from './img/fotos/cliente3.png';
 import Btn from './global/Btn';
+import './mobile/AvaliacaoMobile.css';
 
 const Avaliacao = () => {
   return (
@@ -14,7 +15,8 @@ const Avaliacao = () => {
         fontSize="60"
         hx="h1"
         textAlign="center"
-        margin="60px auto 40px auto"
+        margin="60px auto 20px auto"
+        padding="0 6px"
         color="#107910"
         content="'__'"
       />

@@ -4,7 +4,7 @@
     max-width: 480px;
   }
   .grid-monitoramento {
-    grid-template-columns: 280px;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 40px 0;
     max-width: 320px;
@@ -20,7 +20,7 @@
   }
   .big-text-monitoramento {
     font-size: 16px;
-    max-width: 300px;
+    /* max-width: 300px; */
   }
   .monitoramento-app {
     display: none;
