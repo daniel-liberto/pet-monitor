@@ -1,0 +1,90 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+@import '../src/script/simple-anime.css';
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* CHROME SUPPORT */
+::-webkit-scrollbar { 
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  /* margin-block: .5em; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16,126,16,.7);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,.7);
+}
+
+/* FIREFOX SUPPORT */
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: rgba(16,126,16,.7) transparent;
+    scrollbar-width: thin;
+  }
+}
+body {
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+/* MOBILE SCROLLBAR */
+body {
+  /* overflow: hidden; */
+}
+
+
+/* Margem e padding reset */
+body, h1, h2, h3, h4, h5, p, li, ul {
+  margin: 0;
+  padding: 0;
+}
+/* Titulos reset */
+h1, h2, h3, h4, h5 {
+font-size: 1rem;
+font-weight: 400;
+}
+
+/* lista reset */
+li {
+  list-style: none;
+}
+/* Links reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Img reset */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.enfase {
+  color: #25AD25;
+}
+
+.enfase-quote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #25AD25;
+}
+
+.enfase-campo {
+  color: #AB6D43;
+}
+
+.enfase-campo-quote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #AB6D43;
+}
