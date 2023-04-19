@@ -5,17 +5,19 @@
     margin-bottom: 40px;
   }
   .grid-avaliacao {
+    grid-template-columns: 96%;
     gap: 50px 0 ;
-    margin: 60px 0;
+    margin: 60px auto;
+    justify-content: center;
   }
   .bg-avaliacao {
     background: rgba(0, 48, 0, .8);
     max-width: 100%;
     border-radius: 6px;
-    box-shadow: inset 86px 10px  #ffffff, inset -18px -10px #ffffff;
+    box-shadow: inset 110px 10px  #ffffff, inset -30px -10px #ffffff;
   }
   .bg-avaliacao.lado-direito {
-  box-shadow: inset 6px 10px #ffffff, inset -100px -14px #ffffff;
+  box-shadow: inset 28px 10px #ffffff, inset -114px -14px #ffffff;
   }
   .subgrid-avaliacao {
     grid-template-columns: 80px 1fr 1fr;
@@ -30,14 +32,16 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0px 1px 2px black;
+    /* box-shadow: 0px 2px 6px rgba(16, 121, 16, .6); */
+    outline: 4px solid rgba(0, 160, 0, .2);
+    outline-offset: -0.05rem;
   }
   .subgrid-avaliacao img:hover {
     width: 100px;
   }
   .subgrid-avaliacao p {
     /* word-break: break-all; */
-    max-width: 100%;
+    /* max-width: 100%; */
     font-size: 14px;
     line-height: 1.4em;
     padding: 20px 16px;
@@ -48,12 +52,12 @@
     opacity: .2;
   }
   .subgrid-avaliacao p::before {
-    left: 0%;
+    left: -12%;
     top: -10%;
   }
   .subgrid-avaliacao p::after {
-    left: 90%;
-    top: 94%;
+    left: 100%;
+    top: 96%;
   }
 
   .subgrid-avaliacao h3 {
@@ -62,12 +66,14 @@
     max-width: 60px;
     top: 0%;
     padding-top: 70px;
-    /* color: rgba(34, 69, 40, .7); */
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 160, 0, .6);
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+    /* color: rgba(0, 0, 0, .7); */
     font-size: 14px;
-    font-style: normal;
+    /* font-style: normal; */
     /* font-family: sans-serif; */
-    /* font-weight: bold; */
+    font-weight: bold;
     left: 2%;
   }
   .lado-direito.subgrid-avaliacao h3 {
@@ -80,6 +86,7 @@
   .text-call-avaliacao {
     max-width: 320px;
     padding: 0 16px;
+    text-align: center;
   }
   .text-call-avaliacao a {
     font-size: 18px;
