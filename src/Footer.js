@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderTitle from './global/HeaderTitle';
 import './Footer.css';
+import './mobile/FooterMobile.css';
 import outlook from './img/svg/outlook.svg';
 import linkedin from './img/svg/linkedin.svg';
 import whatsapp from './img/svg/whatsapp.svg';

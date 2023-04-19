@@ -88,10 +88,13 @@
     padding: 0 16px;
     text-align: center;
   }
+  .text-call-avaliacao p {
+    font-size: 12px;
+  }
   .text-call-avaliacao a {
-    font-size: 18px;
+    font-size: 14px;
   }
   .text-call-avaliacao button {
-    padding: 12px 20px !important;
+    padding: 4px 12px 10px 12px !important;
   }
 }

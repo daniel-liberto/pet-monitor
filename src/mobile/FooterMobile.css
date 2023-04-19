@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+  .container-footer {
+    width: 320px;
+    padding-bottom: 60px;
+  }
+  .grid-footer {
+    grid-template-columns: 1fr;
+  }
+  .grid-footer h3 {
+    text-align: center;
+    font-size: 26px !important;
+    padding: 60px 0 20px 0 !important;
+  }
+  .informativo-footer p {
+    text-align: center;
+  }
+  .copy {
+    padding-bottom: 20px;
+  }
+}

@@ -31,7 +31,7 @@ const Flexibilidade = () => {
         </p>
         <div className="grid-flexibilidade">
           <div
-            className="plano-desc bg-domestico fadeInRight"
+            className="plano-desc bg-domestico fadeInUp"
             data-anime="scroll"
             data-anime-time="100"
           >
@@ -57,21 +57,21 @@ const Flexibilidade = () => {
             <Btn text="Conferir planos" padding="0px 12px" />
           </div>
           <div
-            className="config-img domestico-img fadeInRight"
+            className="config-img domestico-img fadeInUp"
             data-anime="scroll"
             data-anime-time="100"
           >
             <img src={animalDomestico} alt="" />
           </div>
           <div
-            className="config-img campo-img fadeInLeft"
+            className="config-img campo-img fadeInUp"
             data-anime="scroll"
             data-anime-time="150"
           >
             <img src={animalCampo} alt="" />
           </div>
           <div
-            className="plano-desc bg-campo fadeInLeft"
+            className="plano-desc bg-campo fadeInUp"
             data-anime="scroll"
             data-anime-time="150"
           >

@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
   .container-navbar {
-    display: block;
-    width: 100vw;
+    /* display: block; */
+    width: 99%;
     position: relative;
   }
   .logo {
