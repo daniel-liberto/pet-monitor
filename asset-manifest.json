@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-monitor/static/css/main.7d943f25.css",
-    "main.js": "/pet-monitor/static/js/main.ed4004d8.js",
+    "main.js": "/pet-monitor/static/js/main.4f35f50c.js",
     "static/media/bg-sobre.jpg": "/pet-monitor/static/media/bg-sobre.760b23d5e8694f859c73.jpg",
     "static/media/landpage-cat.png": "/pet-monitor/static/media/landpage-cat.7d0009322a2fbdcb4491.png",
     "static/media/maps.png": "/pet-monitor/static/media/maps.99953896017934c3ad0c.png",
@@ -34,10 +34,10 @@
     "index.html": "/pet-monitor/index.html",
     "static/media/outlook.svg": "/pet-monitor/static/media/outlook.64d14c84db1e19b93c579c8b036cc86e.svg",
     "main.7d943f25.css.map": "/pet-monitor/static/css/main.7d943f25.css.map",
-    "main.ed4004d8.js.map": "/pet-monitor/static/js/main.ed4004d8.js.map"
+    "main.4f35f50c.js.map": "/pet-monitor/static/js/main.4f35f50c.js.map"
   },
   "entrypoints": [
     "static/css/main.7d943f25.css",
-    "static/js/main.ed4004d8.js"
+    "static/js/main.4f35f50c.js"
   ]
 }
