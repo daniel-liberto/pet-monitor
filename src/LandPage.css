@@ -4,11 +4,20 @@
 }
 
 .bg-landpage {
-  background: linear-gradient(to left, rgba(255,255,255,1) 20%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 80%);
+  /* background: linear-gradient(to left, rgba(255,255,255,1) 20%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 80%); */
   padding-top: 2.5rem;
   width: 100%;
   margin: 0 auto;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, .15);
+  animation: bgSmooth 2s infinite alternate;
+}
+
+@keyframes bgSmooth {
+  from {
+    box-shadow: inset 0px 0px 100px rgba(0, 0, 0, .1);
+  }
+  to {
+    box-shadow: inset 0px -100px 100px rgba(0, 0, 0, .1);
+  }
 }
 
 /* pseudo quotes */
@@ -56,18 +65,19 @@
 .landpage-gato::before {
   content: '';
   position: absolute;
-  background: linear-gradient(180deg, rgba(16, 121, 16, 0.2) 21.54%, rgba(16, 121, 16, 0) 70%);
+  background: linear-gradient(180deg, rgba(16, 121, 16, 0.6) 21.54%, rgba(16, 121, 16, 0) 70%);
   width: 37.5rem;
   height: 12.5rem;
   left: 6.25rem;
   top: 5rem;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .landpage-gato img {
   flex: 2;
   max-width: 29.375rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 .landpage-gato p {

@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../global/Banner';
 import HeaderTitle from '../global/HeaderTitle';
 import bgContato from '../img/banners/bg-contato.jpg';
-import maps from '../img/contato-page/maps.png';
 import './Contato.css';
 import outlook from '../img/svg/outlook.svg';
 import linkedin from '../img/svg/linkedin.svg';
