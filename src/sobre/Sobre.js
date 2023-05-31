@@ -3,6 +3,7 @@ import Banner from '../global/Banner';
 import HeaderTitle from '../global/HeaderTitle';
 import bgSobre from '../img/banners/bg-sobre.jpg';
 import './Sobre.css';
+import './SobreMobile.css';
 import sobrePug from '../img/sobre-page/sobre-pug.jpg';
 
 const Sobre = () => {

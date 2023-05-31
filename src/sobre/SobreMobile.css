@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+  .sobre-container {
+    max-width: 420px;
+    width: auto;
+  }
+  .sobre-container h1 {
+    margin: 60px auto 40px auto !important;
+  }
+  .sobre-texto {
+    padding: 0 16px;
+  }
+  .sobre-texto p {
+    font-size: 14px;
+    line-height: 1.2rem;
+  }
+  .sobre-pug {
+    margin: 40px auto 80px auto;
+    max-width: 100%;
+    height: 0px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
