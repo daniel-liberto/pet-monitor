@@ -19,7 +19,6 @@ function App() {
   }, []);
   return (
     <>
-      {console.log('renderizou')}
       <BrowserRouter>
         <Route path="/pet-monitor" element={<Navbar />} />
         <ScrollToTop />

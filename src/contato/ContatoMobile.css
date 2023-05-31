@@ -1,0 +1,34 @@
+@media (max-width: 480px) {
+  .contato-container {
+    max-width: 420px;
+  }
+  .contato-container h1 {
+    margin: 60px auto 40px auto !important;
+  }
+  .contato-container p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 16px;
+  }
+  .contato-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 40px auto 40px auto;
+  }
+  .contato-grid div:last-child {
+    display: none;
+  }
+  .contato-grid form {
+    max-width: 420px;
+    width: 90%;
+    padding: 0 16px;
+  }
+  .contato-grid form::after {
+    display: none;
+  }
+  .contato-grid button::after {
+    top: -70%;
+    left: 80%;
+    z-index: -1;
+  }
+}
