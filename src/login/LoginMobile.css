@@ -1,0 +1,36 @@
+@media (max-width: 480px) {
+  .login-bg-content {
+    padding: 0 12px;
+    margin: 0 auto;
+  }
+  .login-bg-content:hover {
+    box-shadow: none;
+  }
+  .login-grid {
+    max-width: 420px;
+    width: 100%;
+    grid-template-columns: 100%;
+    margin: 0 auto;
+  }
+  .login-grid h1 {
+    margin: 20px auto 40px auto !important;
+  }
+  .login-grid p {
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+  }
+  .login-grid form {
+    grid-template-columns: 100%;
+    margin-bottom: 0;
+  }
+  .login-grid label {
+    font-size: 16px;
+  }
+  .login-grid input {
+    width: 90%;
+  }
+  .login-registrar-recuperar {
+    width: 100%;
+  }
+}
