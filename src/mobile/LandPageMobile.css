@@ -28,6 +28,7 @@
   }
   .landpage-gato {
     display: grid;
+    overflow: hidden;
   }
   .landpage-gato div {
     display: none;
