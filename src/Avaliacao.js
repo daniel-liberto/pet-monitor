@@ -71,7 +71,12 @@ const Avaliacao = () => {
         </div>
         <div className="text-call-avaliacao">
           <p>Confira já os nossos planos para os seus negócios!</p>
-          <Btn text="Conferir planos" padding="16px 30px" fontSize="24px" />
+          <Btn
+            text="Conferir planos"
+            padding="16px 30px"
+            fontSize="24px"
+            url="/info"
+          />
         </div>
       </div>
     </section>

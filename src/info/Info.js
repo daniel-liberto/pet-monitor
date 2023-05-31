@@ -128,7 +128,7 @@ const Info = () => {
                   text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
-                  url="/"
+                  url="/contato"
                 />
               </div>
             </div>
@@ -162,7 +162,7 @@ const Info = () => {
                   text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
-                  url="/"
+                  url="/contato"
                 />
               </div>
             </div>
@@ -271,7 +271,7 @@ const Info = () => {
                   padding="10px 20px"
                   fontSize="18px"
                   backgroundColor="#50321E"
-                  url="/"
+                  url="/contato"
                 />
               </div>
             </div>
@@ -306,7 +306,7 @@ const Info = () => {
                   padding="10px 20px"
                   fontSize="18px"
                   backgroundColor="#50321E"
-                  url="/"
+                  url="/contato"
                 />
               </div>
             </div>

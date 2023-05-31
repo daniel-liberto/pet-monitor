@@ -47,8 +47,8 @@ const Login = () => {
             />
           </form>
           <div className="login-registrar-recuperar">
-            <a href="/">Recuperar senha</a>
-            <a href="/">Registrar-se</a>
+            <a href="/contato">Recuperar senha</a>
+            <a href="/contato">Registrar-se</a>
           </div>
         </div>
       </div>
