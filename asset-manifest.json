@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pet-monitor/static/css/main.9855538b.css",
+    "main.css": "/pet-monitor/static/css/main.82ee6c4d.css",
     "main.js": "/pet-monitor/static/js/main.2d530c08.js",
     "static/media/bg-sobre.jpg": "/pet-monitor/static/media/bg-sobre.760b23d5e8694f859c73.jpg",
     "static/media/landpage-cat.png": "/pet-monitor/static/media/landpage-cat.7d0009322a2fbdcb4491.png",
@@ -32,11 +32,11 @@
     "static/media/titulo-dec.svg": "/pet-monitor/static/media/titulo-dec.001e89961348d9a23feb.svg",
     "index.html": "/pet-monitor/index.html",
     "static/media/outlook.svg": "/pet-monitor/static/media/outlook.64d14c84db1e19b93c579c8b036cc86e.svg",
-    "main.9855538b.css.map": "/pet-monitor/static/css/main.9855538b.css.map",
+    "main.82ee6c4d.css.map": "/pet-monitor/static/css/main.82ee6c4d.css.map",
     "main.2d530c08.js.map": "/pet-monitor/static/js/main.2d530c08.js.map"
   },
   "entrypoints": [
-    "static/css/main.9855538b.css",
+    "static/css/main.82ee6c4d.css",
     "static/js/main.2d530c08.js"
   ]
 }
