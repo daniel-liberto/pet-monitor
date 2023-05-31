@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../global/Banner';
 import './Info.css';
+import './InfoMobile.css';
 import bgInfo from '../img/banners/bg-info.jpg';
 import HeaderTitle from '../global/HeaderTitle';
 import animalCampo from '../img/info-page/bg-campo.png';

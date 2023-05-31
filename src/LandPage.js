@@ -56,7 +56,7 @@ const LandPage = () => {
               text="Saiba Mais"
               padding="10px 20px"
               fontSize="18px"
-              url="/"
+              url="/info"
             />
           </div>
         </div>

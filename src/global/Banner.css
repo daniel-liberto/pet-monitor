@@ -31,3 +31,13 @@
     width: 1240px;
   }
 }
+
+@media (max-width: 480px) {
+  .bg-banner{
+    opacity: .95;
+  }
+  .banner img {
+    height: 200px;
+    object-fit: cover;
+  }
+}

@@ -54,7 +54,7 @@ const Flexibilidade = () => {
             <p className="text-call-flexibilidade">
               Proteja hoje mesmo seu membro valioso da família!
             </p>
-            <Btn text="Conferir planos" padding="0px 12px" />
+            <Btn text="Conferir planos" padding="0px 12px" url="/info" />
           </div>
           <div
             className="config-img domestico-img fadeInUp"
@@ -92,7 +92,7 @@ const Flexibilidade = () => {
             <p className="text-call-flexibilidade">
               Confira já os nossos planos para os seus negócios!
             </p>
-            <Btn text="Conferir planos" padding="0px 12px" />
+            <Btn text="Conferir planos" padding="0px 12px" url="/info" />
           </div>
         </div>
         <div>
