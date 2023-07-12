@@ -1,5 +1,6 @@
 import React from 'react';
 import './Btn.css';
+import { NavLink } from 'react-router-dom';
 
 const Btn = ({ text, padding, margin, fontSize, url, backgroundColor }) => {
   const style = {
@@ -12,7 +13,7 @@ const Btn = ({ text, padding, margin, fontSize, url, backgroundColor }) => {
   return (
     <>
       <button className="btn" style={style}>
-        <a href={url}>{text}</a>
+        <NavLink to={`${url}`}>{text}</NavLink>
       </button>
     </>
   );
