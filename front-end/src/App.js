@@ -7,11 +7,11 @@ import LandPage from './LandPage.js';
 import Monitoramento from './Monitoramento.js';
 import Navbar from './Navbar.js';
 import initAnimacaoScroll from './script/simple-anime.js';
-import Info from './info/Info.js';
+import Info from './pages/info/Info.js';
 import ScrollToTop from './script/ScrollToTop.js';
-import Sobre from './sobre/Sobre.js';
-import Contato from './contato/Contato.js';
-import Login from './login/Login.js';
+import Sobre from './pages/sobre/Sobre.js';
+import Contato from './pages/contato/Contato.js';
+import Login from './pages/login/Login.js';
 
 function App() {
   React.useEffect(() => {

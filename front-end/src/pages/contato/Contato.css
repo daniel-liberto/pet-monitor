@@ -44,7 +44,7 @@
 .contato-grid textarea {
   border: 1px solid #107910;
   border-radius: 4px;
-  background-color: rgba(16, 121, 16, .05);
+  background-color: rgba(16, 121, 16, 0.05);
   resize: none;
   padding: 8px;
   width: 85%;
@@ -54,14 +54,14 @@
 .contato-grid input:focus,
 .contato-grid textarea:focus {
   outline: none;
-  border: 1px solid #00CA00;
-  box-shadow: 0px 0px 4px rgba(0, 202, 0, .8);
+  border: 1px solid #00ca00;
+  box-shadow: 0px 0px 4px rgba(0, 202, 0, 0.8);
 }
 
 .contato-grid input:hover,
 .contato-grid textarea:hover {
-  border: 1px solid #00CA00;
-  box-shadow: 0px 0px 4px rgba(0, 202, 0, .8);
+  border: 1px solid #00ca00;
+  box-shadow: 0px 0px 4px rgba(0, 202, 0, 0.8);
 }
 
 .contato-grid button {
@@ -70,7 +70,7 @@
 
 .contato-grid button::after {
   content: '';
-  background: url('../img/svg/btn-dec.svg');
+  background: url('../../img/svg/btn-dec.svg');
   background-repeat: no-repeat;
   background-position: cover;
   position: absolute;
@@ -93,7 +93,7 @@
 }
 
 .contato-redes li a img {
-  filter: brightness(.1);
+  filter: brightness(0.1);
 }
 
 .contato-redes li a img:hover {

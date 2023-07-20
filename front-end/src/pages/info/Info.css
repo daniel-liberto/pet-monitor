@@ -90,7 +90,7 @@
   margin: 0 auto;
   border-radius: 4px;
   background-color: #224528;
-  box-shadow: inset 0px 120px  #ffffff, inset 0px -160px #ffffff;
+  box-shadow: inset 0px 120px #ffffff, inset 0px -160px #ffffff;
 }
 
 .info-plano-intro {
@@ -122,7 +122,14 @@
   grid-template-columns: 1fr;
   gap: 32px 0;
   padding: 40px 40px 20px 40px;
-  background: linear-gradient(180deg, rgba(237, 236, 236, 0.77) 0.01%, rgba(213, 213, 213, 0.7) 0.02%, rgba(225, 225, 225, 0.5) 0.03%, #FFFFFF 48.75%, rgba(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 236, 0.77) 0.01%,
+    rgba(213, 213, 213, 0.7) 0.02%,
+    rgba(225, 225, 225, 0.5) 0.03%,
+    #ffffff 48.75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   justify-items: center;
@@ -130,7 +137,14 @@
 }
 
 .info-plano-subgrid:hover {
-  background: linear-gradient(180deg, rgba(237, 236, 236, 0.87) 0.01%, rgba(213, 213, 213, 0.78) 0.02%, rgba(225, 225, 225, 0.56) 0.03%, #FFFFFF 48.75%, rgba(255, 255, 255, 0.48) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 236, 0.87) 0.01%,
+    rgba(213, 213, 213, 0.78) 0.02%,
+    rgba(225, 225, 225, 0.56) 0.03%,
+    #ffffff 48.75%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
   box-shadow: 1px 1px 16px rgba(200, 200, 200, 1);
 }
 
@@ -139,33 +153,44 @@
 }
 
 .info-plano-premium.info-plano-subgrid {
-  background: linear-gradient(180deg, rgba(16, 121, 16, 0.7) 0%, rgba(47, 74, 47, 0.035) 50.83%, rgba(16, 121, 16, 0.357) 99.99%, rgba(16, 121, 16, 0.7) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 121, 16, 0.7) 0%,
+    rgba(47, 74, 47, 0.035) 50.83%,
+    rgba(16, 121, 16, 0.357) 99.99%,
+    rgba(16, 121, 16, 0.7) 100%
+  );
 }
 
 .info-plano-premium.info-plano-subgrid:hover {
-box-shadow: 1px 1px 16px rgba(0, 100, 0, .9);
+  box-shadow: 1px 1px 16px rgba(0, 100, 0, 0.9);
 }
 
 /* campo section */
 .camposection.info-plano-premium.info-plano-subgrid {
-  background: linear-gradient(180deg, rgba(80, 50, 30, 0.8) 0%, rgba(55, 32, 20, .6) 50%, rgba(80, 50, 30, 0.5) 99.99%);
+  background: linear-gradient(
+    180deg,
+    rgba(80, 50, 30, 0.8) 0%,
+    rgba(55, 32, 20, 0.6) 50%,
+    rgba(80, 50, 30, 0.5) 99.99%
+  );
 }
 .camposection.info-plano-premium.info-plano-subgrid:hover {
   box-shadow: 1px 1px 16px rgba(80, 50, 30, 1);
-  }
-  /* Fim campo section */
+}
+/* Fim campo section */
 
 .info-plano-premium.info-plano-subgrid ul li {
   color: #f4f4f4;
 }
 
 .info-plano-premium.info-plano-subgrid ul li::before {
-  background-color: #00CA00;
+  background-color: #00ca00;
 }
 
 /* campo section */
 .camposection.info-plano-premium.info-plano-subgrid ul li::before {
-  background-color: #AB6D43;
+  background-color: #ab6d43;
 }
 /* Fim campo section */
 
@@ -182,7 +207,7 @@ box-shadow: 1px 1px 16px rgba(0, 100, 0, .9);
 }
 
 .info-plano-subgrid:last-child {
-justify-self: start;
+  justify-self: start;
 }
 
 .info-plano-subgrid h4 {
@@ -195,7 +220,7 @@ justify-self: start;
 
 /* campo section */
 .camposection.info-plano-standard.info-plano-subgrid h4 {
-  color: #AB6D43;
+  color: #ab6d43;
 }
 /* Fim campo section */
 
@@ -220,7 +245,7 @@ justify-self: start;
 
 /* campo section */
 .camposection.info-plano-subgrid ul li::before {
-  background-color: #AB6D43;
+  background-color: #ab6d43;
 }
 /* Fim campo section */
 
@@ -234,7 +259,7 @@ justify-self: start;
 
 .info-plano-subgrid p::after {
   content: '';
-  background: url('../img/svg/btn-dec.svg');
+  background: url('../../img/svg/btn-dec.svg');
   background-repeat: no-repeat;
   background-position: cover;
   position: absolute;
@@ -260,7 +285,7 @@ justify-self: start;
 /* campo section */
 .camposection.info-plano-subgrid sup {
   color: rgba(80, 50, 30, 1);
-  text-shadow: 0px 0px 2px #AB6D43;
+  text-shadow: 0px 0px 2px #ab6d43;
 }
 /* Fim campo section */
 
@@ -288,7 +313,7 @@ justify-self: start;
   margin: 0 auto 40px auto;
   border-radius: 40px;
   height: 160px;
-  box-shadow: inset 30px 36px  #ffffff, inset -30px -36px #ffffff;
+  box-shadow: inset 30px 36px #ffffff, inset -30px -36px #ffffff;
   /* Fix for border radius ghost */
   outline: 0.3rem solid #ffffff;
   outline-offset: -0.05rem;
@@ -301,7 +326,7 @@ justify-self: start;
 }
 
 .info-porque-bg:hover {
-height: 280px;
+  height: 280px;
 }
 
 .info-porque {
@@ -322,7 +347,7 @@ height: 280px;
   visibility: visible;
   opacity: 1;
   font-size: 20px;
-  color: #D8D8D8;
+  color: #d8d8d8;
 }
 
 @media (min-width: 1240px) {

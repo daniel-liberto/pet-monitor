@@ -1,6 +1,6 @@
 import React from 'react';
-import Btn from '../global/Btn';
-import HeaderTitle from '../global/HeaderTitle';
+import Btn from '../../global/Btn';
+import HeaderTitle from '../../global/HeaderTitle';
 import './Login.css';
 import './LoginMobile.css';
 

@@ -1,13 +1,13 @@
 import React from 'react';
-import Banner from '../global/Banner';
-import HeaderTitle from '../global/HeaderTitle';
-import bgContato from '../img/banners/bg-contato.jpg';
+import Banner from '../../global/Banner';
+import HeaderTitle from '../../global/HeaderTitle';
+import bgContato from '../../img/banners/bg-contato.jpg';
 import './Contato.css';
 import './ContatoMobile.css';
-import outlook from '../img/svg/outlook.svg';
-import linkedin from '../img/svg/linkedin.svg';
-import whatsapp from '../img/svg/whatsapp.svg';
-import Btn from '../global/Btn';
+import outlook from '../../img/svg/outlook.svg';
+import linkedin from '../../img/svg/linkedin.svg';
+import whatsapp from '../../img/svg/whatsapp.svg';
+import Btn from '../../global/Btn';
 
 const Contato = () => {
   const [nome, setNome] = React.useState('');
