@@ -6,7 +6,7 @@ import './LandPage.css';
 import './mobile/LandPageMobile.css';
 import Animate from './script/simple-anime.js';
 import './script/simple-anime.css';
-// import { useLocation } from 'react-router-dom';
+import './animation/LandPagePaw.css';
 
 const LandPage = () => {
   // const location = useLocation();
@@ -47,11 +47,11 @@ const LandPage = () => {
             alt=""
           />
           <div
-            className="fadeInRight"
+            className="fadeInRight landpage-call"
             data-anime="scroll"
             data-anime-time="900"
           >
-            <p>Veja nossas diversas opções de planos para o seu objetivo!</p>
+            <p>Clique para ver as opções!</p>
             <Btn
               text="Saiba Mais"
               padding="10px 20px"

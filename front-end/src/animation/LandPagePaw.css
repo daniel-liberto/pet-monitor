@@ -1,0 +1,259 @@
+/* ::before = leftPaw */
+@keyframes leftPaw {
+  0% {
+    top: 60px;
+    left: -170px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  5% {
+    top: -20px;
+    left: -90px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  10% {
+    top: -20px;
+    left: -90px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  15% {
+    top: -20px;
+    left: -90px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  20% {
+    top: -20px;
+    left: -90px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  25% {
+    top: -100px;
+    left: -10px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  30% {
+    top: -100px;
+    left: -10px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  35% {
+    top: -100px;
+    left: -10px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  40% {
+    top: -100px;
+    left: -10px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  45% {
+    top: -180px;
+    left: 70px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  50% {
+    top: -180px;
+    left: 70px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  55% {
+    top: -180px;
+    left: 70px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  60% {
+    top: -180px;
+    left: 70px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  65% {
+    top: -260px;
+    left: 150px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  70% {
+    top: -260px;
+    left: 150px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  75% {
+    top: -260px;
+    left: 150px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  80% {
+    top: -260px;
+    left: 150px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  85% {
+    top: -340px;
+    left: 230px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  90% {
+    top: -340px;
+    left: 230px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  95% {
+    top: -340px;
+    left: 230px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  100% {
+    top: -340px;
+    left: 230px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+}
+
+/* ::before = rightPaw */
+@keyframes rightPaw {
+  0% {
+    top: 60px;
+    left: -90px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  5% {
+    top: 60px;
+    left: -90px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  10% {
+    top: 60px;
+    left: -90px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  15% {
+    top: -20px;
+    left: -10px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  20% {
+    top: -20px;
+    left: -10px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  25% {
+    top: -20px;
+    left: -10px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  30% {
+    top: -20px;
+    left: -10px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  35% {
+    top: -100px;
+    left: 70px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  40% {
+    top: -100px;
+    left: 70px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  45% {
+    top: -100px;
+    left: 70px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  50% {
+    top: -100px;
+    left: 70px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  55% {
+    top: -180px;
+    left: 150px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  60% {
+    top: -180px;
+    left: 150px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  65% {
+    top: -180px;
+    left: 150px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  70% {
+    top: -180px;
+    left: 150px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  75% {
+    top: -260px;
+    left: 230px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  80% {
+    top: -260px;
+    left: 230px;
+    opacity: 0.3;
+    transition-duration: opacity 0s;
+  }
+  85% {
+    top: -260px;
+    left: 230px;
+    opacity: 0.4;
+    transition-duration: opacity 0s;
+  }
+  90% {
+    top: -260px;
+    left: 230px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  95% {
+    top: -340px;
+    left: 310px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+  100% {
+    top: -340px;
+    left: 310px;
+    opacity: 0;
+    transition-duration: opacity 0s;
+  }
+}

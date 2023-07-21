@@ -1,4 +1,8 @@
 @media (max-width: 480px) {
+  .landpage-call::before,
+  .landpage-call::after {
+    animation: none;
+  }
 
   .bg-landpage {
     padding-top: 1px;
@@ -48,8 +52,8 @@
   .landpage-gato::before {
     top: 4rem;
   }
-.landpage-gato::after {
-    content: "﹀";
+  .landpage-gato::after {
+    content: '﹀';
     font-size: 36px;
     text-align: center;
     position: absolute;
@@ -62,13 +66,13 @@
     z-index: 2;
     animation: downArrow 2s infinite alternate;
   }
-  
+
   @keyframes downArrow {
     from {
-      transform:translate3d(0,-10px,0);
+      transform: translate3d(0, -10px, 0);
     }
     to {
-      transform:translate3d(0,-20px,0);
+      transform: translate3d(0, -20px, 0);
     }
   }
   .landpage-gato p {
