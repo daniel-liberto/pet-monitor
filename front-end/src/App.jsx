@@ -20,11 +20,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route path="/pet-monitor" element={<Navbar />} />
+        <Route path="/" element={<Navbar />} />
         <ScrollToTop />
         <Routes>
           <Route
-            path="/pet-monitor"
+            path="/"
             element={
               <>
                 <LandPage />
@@ -39,7 +39,7 @@ function App() {
           <Route path="contato" element={<Contato />} />
           <Route path="login" element={<Login />} />
         </Routes>
-        <Route path="/pet-monitor" element={<Footer />} />
+        <Route path="/" element={<Footer />} />
       </BrowserRouter>
     </>
   );

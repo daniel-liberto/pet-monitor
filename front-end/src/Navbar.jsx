@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="bg-navbar">
       <div className="container-navbar">
         <div className="logo">
-          <a href="/pet-monitor">
+          <a href="/">
             <img src={logoPetMonitor} alt="Logomarca da empresa Pet Monitor" />
           </a>
         </div>
