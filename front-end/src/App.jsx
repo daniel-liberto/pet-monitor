@@ -1,17 +1,17 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Avaliacao from './Avaliacao.js';
-import Flexibilidade from './Flexibilidade.js';
-import Footer from './Footer.js';
-import LandPage from './LandPage.js';
-import Monitoramento from './Monitoramento.js';
-import Navbar from './Navbar.js';
+import Avaliacao from './Avaliacao.jsx';
+import Flexibilidade from './Flexibilidade.jsx';
+import Footer from './Footer.jsx';
+import LandPage from './LandPage.jsx';
+import Monitoramento from './Monitoramento.jsx';
+import Navbar from './Navbar.jsx';
 import initAnimacaoScroll from './script/simple-anime.js';
-import Info from './pages/info/Info.js';
+import Info from './pages/info/Info.jsx';
 import ScrollToTop from './script/ScrollToTop.js';
-import Sobre from './pages/sobre/Sobre.js';
-import Contato from './pages/contato/Contato.js';
-import Login from './pages/login/Login.js';
+import Sobre from './pages/sobre/Sobre.jsx';
+import Contato from './pages/contato/Contato.jsx';
+import Login from './pages/login/Login.jsx';
 
 function App() {
   React.useEffect(() => {
