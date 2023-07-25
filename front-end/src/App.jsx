@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Avaliacao from './Avaliacao.jsx';
-import Flexibilidade from './Flexibilidade.jsx';
+import LandPage from './pages/index/LandPage.jsx';
+import Flexibilidade from './pages/index/Flexibilidade.jsx';
+import Monitoramento from './pages/index/Monitoramento.jsx';
+import Avaliacao from './pages/index/Avaliacao.jsx';
 import Footer from './Footer.jsx';
-import LandPage from './LandPage.jsx';
-import Monitoramento from './Monitoramento.jsx';
 import Navbar from './Navbar.jsx';
 import initAnimacaoScroll from './script/simple-anime.js';
 import Info from './pages/info/Info.jsx';
@@ -12,6 +12,7 @@ import ScrollToTop from './script/ScrollToTop.js';
 import Sobre from './pages/sobre/Sobre.jsx';
 import Contato from './pages/contato/Contato.jsx';
 import Login from './pages/login/Login.jsx';
+import { UserStorage } from './UserContext.jsx';
 
 function App() {
   React.useEffect(() => {
@@ -20,26 +21,28 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route path="/" element={<Navbar />} />
-        <ScrollToTop />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <LandPage />
-                <Flexibilidade />
-                <Monitoramento />
-                <Avaliacao />
-              </>
-            }
-          />
-          <Route path="info" element={<Info />} />
-          <Route path="sobre" element={<Sobre />} />
-          <Route path="contato" element={<Contato />} />
-          <Route path="login" element={<Login />} />
-        </Routes>
-        <Route path="/" element={<Footer />} />
+        <UserStorage>
+          <Route path="/pet-monitor" element={<Navbar />} />
+          <ScrollToTop />
+          <Routes>
+            <Route
+              path="/pet-monitor"
+              element={
+                <>
+                  <LandPage />
+                  <Flexibilidade />
+                  <Monitoramento />
+                  <Avaliacao />
+                </>
+              }
+            />
+            <Route path="pet-monitor/info" element={<Info />} />
+            <Route path="pet-monitor/sobre" element={<Sobre />} />
+            <Route path="pet-monitor/contato" element={<Contato />} />
+            <Route path="pet-monitor/login/*" element={<Login />} />
+          </Routes>
+          <Route path="/pet-monitor" element={<Footer />} />
+        </UserStorage>
       </BrowserRouter>
     </>
   );

@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="bg-navbar">
       <div className="container-navbar">
         <div className="logo">
-          <a href="/">
+          <a href="/pet-monitor">
             <img src={logoPetMonitor} alt="Logomarca da empresa Pet Monitor" />
           </a>
         </div>
@@ -34,19 +34,19 @@ const Navbar = () => {
             }
           >
             <li>
-              <NavLink to="info">Info</NavLink>
+              <NavLink to="pet-monitor/info">Info</NavLink>
             </li>
             <li>
-              <NavLink to="monitoramento">Monitoramento</NavLink>
+              <NavLink to="pet-monitor/monitoramento">Monitoramento</NavLink>
             </li>
             <li>
-              <NavLink to="sobre">Sobre</NavLink>
+              <NavLink to="pet-monitor/sobre">Sobre</NavLink>
             </li>
             <li>
-              <NavLink to="contato">Contato</NavLink>
+              <NavLink to="pet-monitor/contato">Contato</NavLink>
             </li>
             <li>
-              <NavLink to="login">Login</NavLink>
+              <NavLink to="pet-monitor/login">Login</NavLink>
             </li>
           </ul>
         </div>

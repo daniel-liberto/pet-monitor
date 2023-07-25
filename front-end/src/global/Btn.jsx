@@ -2,7 +2,15 @@ import React from 'react';
 import './Btn.css';
 import { NavLink } from 'react-router-dom';
 
-const Btn = ({ text, padding, margin, fontSize, url, backgroundColor }) => {
+const Btn = ({
+  text,
+  padding,
+  margin,
+  fontSize,
+  url,
+  backgroundColor,
+  ...props
+}) => {
   const style = {
     padding: padding,
     text: text,
@@ -12,7 +20,7 @@ const Btn = ({ text, padding, margin, fontSize, url, backgroundColor }) => {
   };
   return (
     <>
-      <button className="btn" style={style}>
+      <button {...props} className="btn" style={style}>
         <NavLink to={`${url}`}>{text}</NavLink>
       </button>
     </>

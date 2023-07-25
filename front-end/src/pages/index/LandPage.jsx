@@ -1,12 +1,12 @@
 import React from 'react';
-import Btn from './global/Btn';
-import HeaderTitle from './global/HeaderTitle';
-import landpagegato from './img/fotos/landpage-cat.png';
+import Btn from '../../global/Btn';
+import HeaderTitle from '../../global/HeaderTitle';
+import landpagegato from '../../img/fotos/landpage-cat.png';
 import './LandPage.css';
-import './mobile/LandPageMobile.css';
-import Animate from './script/simple-anime.js';
-import './script/simple-anime.css';
-import './animation/LandPagePaw.css';
+import '../../mobile/LandPageMobile.css';
+import Animate from '../../script/simple-anime.js';
+import '../../script/simple-anime.css';
+import '../../animation/LandPagePaw.css';
 
 const LandPage = () => {
   // const location = useLocation();

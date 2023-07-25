@@ -1,12 +1,12 @@
 import React from 'react';
-import Btn from './global/Btn';
-import HeaderTitle from './global/HeaderTitle';
-import monitoraPhone from './img/fotos/monitoramento-phone.png';
-import sombraPhone from './img/fotos/sombra-phone.png';
-import googleplay from './img/fotos/googleplay.png';
-import appstore from './img/fotos/appstore.png';
+import Btn from '../../global/Btn';
+import HeaderTitle from '../../global/HeaderTitle';
+import monitoraPhone from '../../img/fotos/monitoramento-phone.png';
+import sombraPhone from '../../img/fotos/sombra-phone.png';
+import googleplay from '../../img/fotos/googleplay.png';
+import appstore from '../../img/fotos/appstore.png';
 import './Monitoramento.css';
-import './mobile/MonitoramentoMobile.css';
+import '../../mobile/MonitoramentoMobile.css';
 
 const Monitoramento = () => {
   return (

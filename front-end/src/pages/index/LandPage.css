@@ -143,7 +143,7 @@
   width: 30px;
   position: absolute;
   z-index: -1;
-  background: url('img/svg/logo-icon.svg');
+  background: url('../../img/svg/logo-icon.svg');
   opacity: 0.3;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +159,7 @@
   width: 30px;
   position: absolute;
   z-index: -1;
-  background: url('img/svg/logo-icon.svg');
+  background: url('../../img/svg/logo-icon.svg');
   opacity: 0.3;
   background-repeat: no-repeat;
   background-size: cover;

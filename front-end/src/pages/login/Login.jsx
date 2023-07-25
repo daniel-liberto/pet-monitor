@@ -1,12 +1,25 @@
 import React from 'react';
 import Btn from '../../global/Btn';
 import HeaderTitle from '../../global/HeaderTitle';
+import useForm from '../../hooks/useForm';
+import { UserContext } from '../../UserContext';
 import './Login.css';
 import './LoginMobile.css';
+import Input from '../../global/Input';
 
 const Login = () => {
-  const [emailLogin, setEmailLogin] = React.useState('');
-  const [passwordLogin, setPasswordLogin] = React.useState('');
+  const emailLogin = useForm();
+  const passwordLogin = useForm();
+
+  const { userLogin, error, loading } = React.useContext(UserContext);
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    if (emailLogin.validate() && passwordLogin.validate()) {
+      userLogin(emailLogin.value, passwordLogin.value);
+    }
+  }
 
   return (
     <>
@@ -22,29 +35,32 @@ const Login = () => {
             textAlign="center"
           />
           <p>Conecte-se para ter acesso ao aplicativo web</p>
-          <form>
-            <label htmlFor="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              value={emailLogin}
-              onChange={({ target }) => setEmailLogin(target.value)}
-            />
-            <label htmlFor="senha">Senha</label>
-            <input
+          <form onSubmit={handleSubmit}>
+            <Input label="E-mail" type="email" name="email" {...emailLogin} />
+            <Input
+              label="Senha"
               type="password"
-              name="senha"
-              id="senha"
-              value={passwordLogin}
-              onChange={({ target }) => setPasswordLogin(target.value)}
+              name="password"
+              {...passwordLogin}
             />
-            <Btn
-              text="Acessar conta"
-              fontSize="20px"
-              margin="40px auto"
-              padding="12px 24px"
-            />
+            {loading ? (
+              <Btn
+                disabled
+                text="Carregando..."
+                styles={{ opacity: 0.3 }}
+                fontSize="20px"
+                margin="40px auto"
+                padding="12px 24px"
+              />
+            ) : (
+              <Btn
+                text="Acessar conta"
+                fontSize="20px"
+                margin="40px auto"
+                padding="12px 24px"
+              />
+            )}
+            {/* <Error error={error} /> */}
           </form>
           <div className="login-registrar-recuperar">
             <a href="/contato">Recuperar senha</a>

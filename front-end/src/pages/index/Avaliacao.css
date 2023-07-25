@@ -21,7 +21,7 @@
   margin: 0 auto;
   border-radius: 40px;
   height: 100%;
-  box-shadow: inset 120px 36px  #ffffff, inset -2px -36px #ffffff;
+  box-shadow: inset 120px 36px #ffffff, inset -2px -36px #ffffff;
   /* Fix for border radius ghost */
   outline: 0.3rem solid #ffffff;
   outline-offset: -0.05rem;
@@ -34,7 +34,7 @@
 .subgrid-avaliacao {
   display: grid;
   grid-template-columns: 400px 1fr 1fr;
-  color: #EEEEEE;
+  color: #eeeeee;
   position: relative;
   max-width: 960px;
   margin: 0 auto;
@@ -48,7 +48,7 @@
   max-width: 400px;
   width: 300px;
   justify-self: center;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .subgrid-avaliacao img:hover {
@@ -75,7 +75,7 @@
 }
 
 .subgrid-avaliacao p::before {
-  background-image: url('./img/svg/quote-dec1.svg');
+  background-image: url('../../img/svg/quote-dec1.svg');
   background-position: cover;
   background-repeat: no-repeat;
   height: 30px;
@@ -85,7 +85,7 @@
 }
 
 .subgrid-avaliacao p::after {
-  background-image: url('./img/svg/quote-dec2.svg');
+  background-image: url('../../img/svg/quote-dec2.svg');
   background-position: cover;
   background-repeat: no-repeat;
   height: 30px;
