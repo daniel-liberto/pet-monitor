@@ -33,18 +33,18 @@ export const UserStorage = ({ children }) => {
   }
 
   // valida o token e tenta fazer o login
-  async function userLogin(emailLogin, passwordLogin) {
+  async function userLogin(username, password) {
     try {
       setError(null);
       setLoading(true);
-      const { url, options } = TOKEN_POST({ emailLogin, passwordLogin });
+      const { url, options } = TOKEN_POST({ username, password });
       const tokenRes = await fetch(url, options);
 
       if (!tokenRes.ok) throw new Error(`Error: Usuário inválido`);
       const { token } = await tokenRes.json();
       window.localStorage.setItem('token', token);
       await getUser(token);
-      navigate('/pet-monitor/account'); // manda pro perfil quando logar
+      navigate('/pet-monitor/contato'); // manda pro perfil quando logar
     } catch (err) {
       setError(err.message);
       setLogin(false);

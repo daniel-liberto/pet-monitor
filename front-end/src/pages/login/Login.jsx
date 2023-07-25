@@ -6,18 +6,21 @@ import { UserContext } from '../../UserContext';
 import './Login.css';
 import './LoginMobile.css';
 import Input from '../../global/Input';
+import Error from '../../global/Error';
+import { TOKEN_POST } from '../../api/Api';
+import BtnForm from '../../global/BtnForm';
 
 const Login = () => {
-  const emailLogin = useForm();
-  const passwordLogin = useForm();
+  const username = useForm();
+  const password = useForm();
 
   const { userLogin, error, loading } = React.useContext(UserContext);
 
   async function handleSubmit(event) {
     event.preventDefault();
 
-    if (emailLogin.validate() && passwordLogin.validate()) {
-      userLogin(emailLogin.value, passwordLogin.value);
+    if (username.validate() && password.validate()) {
+      userLogin(username.value, password.value);
     }
   }
 
@@ -31,36 +34,33 @@ const Login = () => {
             fontSize="60"
             color="#107910"
             content="'__'"
-            margin="20px auto 60px auto"
+            margin="20px auto 30px auto"
             textAlign="center"
           />
           <p>Conecte-se para ter acesso ao aplicativo web</p>
           <form onSubmit={handleSubmit}>
-            <Input label="E-mail" type="email" name="email" {...emailLogin} />
+            <Input label="Usuário" type="text" name="username" {...username} />
             <Input
               label="Senha"
               type="password"
               name="password"
-              {...passwordLogin}
+              {...password}
             />
             {loading ? (
-              <Btn
+              <BtnForm
                 disabled
-                text="Carregando..."
-                styles={{ opacity: 0.3 }}
-                fontSize="20px"
-                margin="40px auto"
-                padding="12px 24px"
-              />
+                padding="10px 16px"
+                margin="30px auto"
+                fontSize="18px"
+              >
+                Carregando...
+              </BtnForm>
             ) : (
-              <Btn
-                text="Acessar conta"
-                fontSize="20px"
-                margin="40px auto"
-                padding="12px 24px"
-              />
+              <BtnForm padding="10px 16px" margin="30px auto" fontSize="18px">
+                Acessar Conta
+              </BtnForm>
             )}
-            {/* <Error error={error} /> */}
+            <Error error={error} />
           </form>
           <div className="login-registrar-recuperar">
             <a href="/contato">Recuperar senha</a>

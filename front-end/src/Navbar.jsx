@@ -3,9 +3,14 @@ import './Navbar.css';
 import './mobile/NavbarMobile.css';
 import logoPetMonitor from './img/svg/logo-petmonitor.svg';
 import { NavLink } from 'react-router-dom';
+import { UserContext } from './UserContext';
+import Btn from './global/Btn';
+import BtnForm from './global/BtnForm';
 
 const Navbar = () => {
   const [active, setActive] = React.useState(false);
+  const { data, userLogout } = React.useContext(UserContext);
+
   const ToggleMode = () => {
     setActive(!active);
   };
@@ -45,9 +50,28 @@ const Navbar = () => {
             <li>
               <NavLink to="pet-monitor/contato">Contato</NavLink>
             </li>
-            <li>
-              <NavLink to="pet-monitor/login">Login</NavLink>
-            </li>
+
+            {data ? (
+              <li>
+                <NavLink to="pet-monitor/account" className="btnUser">
+                  <BtnForm
+                    onClick={userLogout}
+                    fontSize="16px"
+                    margin="0 0 0 16px"
+                    padding="8px 16px"
+                  >
+                    {data.nome}
+                  </BtnForm>
+                  {/* <Btn
+                    
+                  /> */}
+                </NavLink>
+              </li>
+            ) : (
+              <li>
+                <NavLink to="pet-monitor/login">Login</NavLink>
+              </li>
+            )}
           </ul>
         </div>
       </div>

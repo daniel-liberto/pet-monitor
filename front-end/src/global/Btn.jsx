@@ -18,12 +18,11 @@ const Btn = ({
     margin: margin,
     backgroundColor: backgroundColor,
   };
+
   return (
-    <>
-      <button {...props} className="btn" style={style}>
-        <NavLink to={`${url}`}>{text}</NavLink>
-      </button>
-    </>
+    <button {...props} className="btn" style={style}>
+      <NavLink to={`${url}`}>{text}</NavLink>
+    </button>
   );
 };
 

@@ -1,6 +1,6 @@
 .login-bg-content {
   max-width: 360px;
-  margin: 200px auto;
+  margin: 220px auto;
   padding: 20px 40px 20px 40px;
   background: linear-gradient(
     180deg,
@@ -40,6 +40,7 @@
   display: grid;
   grid-template-columns: 240px;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .login-grid label {
