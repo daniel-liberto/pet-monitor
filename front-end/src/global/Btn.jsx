@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Children } from 'react';
 import './Btn.css';
 import { NavLink } from 'react-router-dom';
 
 const Btn = ({
-  text,
+  children,
   padding,
   margin,
   fontSize,
@@ -13,16 +13,17 @@ const Btn = ({
 }) => {
   const style = {
     padding: padding,
-    text: text,
     fontSize: fontSize,
     margin: margin,
     backgroundColor: backgroundColor,
   };
 
   return (
-    <button {...props} className="btn" style={style}>
-      <NavLink to={`${url}`}>{text}</NavLink>
-    </button>
+    <NavLink to={`${url}`}>
+      <button {...props} className="btn" style={style}>
+        {children}
+      </button>
+    </NavLink>
   );
 };
 

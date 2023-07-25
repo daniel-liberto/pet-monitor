@@ -41,7 +41,7 @@ const Flexibilidade = () => {
               fontSize="42"
               textAlign="center"
               color="#107910"
-              content="'__'"
+              content="''"
             />
             <p className="quote-flexibilidade">
               Todos sabem que não somos nós que escolhemos nossos animais de
@@ -54,7 +54,9 @@ const Flexibilidade = () => {
             <p className="text-call-flexibilidade">
               Proteja hoje mesmo seu membro valioso da família!
             </p>
-            <Btn text="Conferir planos" padding="0px 12px" url="/info" />
+            <Btn padding="10px 12px" margin="0" url="/info">
+              Conferir planos
+            </Btn>
           </div>
           <div
             className="config-img domestico-img fadeInUp"
@@ -80,19 +82,27 @@ const Flexibilidade = () => {
               text="Plano Rural"
               fontSize="42"
               textAlign="center"
-              color="#107910"
-              content="'__'"
+              color="rgba(80, 50, 30, 1)"
+              content="''"
             />
-            <p className="quote-flexibilidade">
+            <p className="dec-campo quote-flexibilidade">
               Qualquer animal do campo independente de sua função, é muito
               importante pensar em sua{' '}
-              <span className="enfase-quote">segurança</span>. Tenha os seus
-              negócios <span className="enfase-quote">sob total controle!</span>
+              <span className="enfase-campo-quote">segurança</span>. Tenha os
+              seus negócios{' '}
+              <span className="enfase-campo-quote">sob total controle!</span>
             </p>
             <p className="text-call-flexibilidade">
               Confira já os nossos planos para os seus negócios!
             </p>
-            <Btn text="Conferir planos" padding="0px 12px" url="/info" />
+            <Btn
+              padding="10px 12px"
+              margin="0"
+              backgroundColor="rgb(80, 50, 30)"
+              url="/info"
+            >
+              Conferir planos
+            </Btn>
           </div>
         </div>
         <div>

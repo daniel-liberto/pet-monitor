@@ -44,12 +44,13 @@ const Monitoramento = () => {
                 Veja nosso aplicativo online clicando no botão abaixo
               </p>
               <Btn
-                text="Acesse agora"
                 padding="10px 16px"
                 margin="20px 0"
                 fontSize="18px"
                 url="/monitoramento"
-              />
+              >
+                Acesse agora
+              </Btn>
             </div>
           </div>
           <div className="monitoramento-app">

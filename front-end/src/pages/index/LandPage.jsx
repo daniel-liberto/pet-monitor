@@ -52,12 +52,9 @@ const LandPage = () => {
             data-anime-time="900"
           >
             <p>Clique para ver as opções!</p>
-            <Btn
-              text="Saiba Mais"
-              padding="10px 20px"
-              fontSize="18px"
-              url="/info"
-            />
+            <Btn padding="10px 20px" fontSize="18px" url="/info">
+              Saiba Mais
+            </Btn>
           </div>
         </div>
       </div>

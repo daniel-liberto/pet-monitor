@@ -20,14 +20,24 @@
 .plano-desc {
   width: 100%;
   display: grid;
+  place-items: center;
+  padding-bottom: 16px;
 }
 
 .bg-domestico {
-  background: linear-gradient(270deg, rgba(16, 121, 16, 0.15) 0%, rgba(232, 251, 232, 0) 100%);
+  background: linear-gradient(
+    270deg,
+    rgba(16, 121, 16, 0.15) 0%,
+    rgba(232, 251, 232, 0) 100%
+  );
 }
 
 .bg-campo {
-  background: linear-gradient(90deg, rgba(16, 121, 16, 0.15) 0%, rgba(232, 251, 232, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 109, 67, 0.4) 0%,
+    rgba(232, 251, 232, 0) 100%
+  );
 }
 
 .plano-desc h2 {
@@ -39,19 +49,34 @@
   font-size: 0.625rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  color: #4E4E4E;
+  color: #4e4e4e;
   max-width: 18.75rem;
   position: relative;
   line-height: 0.813rem;
-  letter-spacing: .02rem;
+  letter-spacing: 0.02rem;
 }
 .quote-flexibilidade::before,
 .quote-flexibilidade::after {
   content: '';
   width: 9.375rem;
   height: 0.063rem;
-  background: linear-gradient(90deg, rgba(0, 255, 0, 0) 0%, #00FF00 51.35%, rgba(0, 255, 0, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0) 0%,
+    #00ff00 51.35%,
+    rgba(0, 255, 0, 0) 100%
+  );
   position: absolute;
+}
+
+.dec-campo.quote-flexibilidade::before,
+.dec-campo.quote-flexibilidade::after {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0) 0%,
+    #ab6d43 51.35%,
+    rgba(0, 255, 0, 0) 100%
+  );
 }
 
 .quote-flexibilidade::before {
@@ -69,7 +94,8 @@
   text-align: center;
   font-size: 0.75rem;
   margin-top: 0.625rem;
-  color: #4E4E4E;
+  margin-bottom: 16px;
+  color: #4e4e4e;
 }
 
 .plano-desc button {
@@ -115,7 +141,7 @@
   max-width: 25rem;
   text-align: center;
   font-size: 0.625rem;
-  color: #4E4E4E;
+  color: #4e4e4e;
 }
 
 .custom-link:hover {
@@ -138,7 +164,7 @@
     max-width: 25rem;
   }
   .quote-flexibilidade::after,
-  .quote-flexibilidade::before  {
+  .quote-flexibilidade::before {
     height: 0.031rem;
   }
   .quote-flexibilidade::before {
