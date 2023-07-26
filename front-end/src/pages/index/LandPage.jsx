@@ -1,7 +1,7 @@
 import React from 'react';
 import Btn from '../../global/Btn';
 import HeaderTitle from '../../global/HeaderTitle';
-import landpagegato from '../../img/fotos/landpage-cat.png';
+import landpagegato from '../../img/fotos/landpage-cat.webp';
 import './LandPage.css';
 import '../../mobile/LandPageMobile.css';
 import Animate from '../../script/simple-anime.js';
@@ -9,7 +9,6 @@ import '../../script/simple-anime.css';
 import '../../animation/LandPagePaw.css';
 
 const LandPage = () => {
-  // const location = useLocation();
   React.useEffect(() => {
     new Animate();
   }, []);
@@ -52,7 +51,7 @@ const LandPage = () => {
             data-anime-time="900"
           >
             <p>Clique para ver as opções!</p>
-            <Btn padding="10px 20px" fontSize="18px" url="/info">
+            <Btn padding="10px 20px" fontSize="18px" url="/pet-monitor/info">
               Saiba Mais
             </Btn>
           </div>

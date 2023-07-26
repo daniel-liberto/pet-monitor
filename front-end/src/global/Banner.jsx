@@ -1,6 +1,8 @@
 import React from 'react';
 import HeaderTitle from './HeaderTitle';
 import './Banner.css';
+import { useLocation } from 'react-router-dom';
+import initAnimacaoScroll from '../script/simple-anime';
 
 const Banner = ({
   image,
@@ -13,6 +15,10 @@ const Banner = ({
   color,
   content,
 }) => {
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    initAnimacaoScroll();
+  }, [pathname]);
   return (
     <div className="bg-banner">
       <div className="banner">
@@ -21,7 +27,11 @@ const Banner = ({
           alt=""
           style={{ margin: '0 auto', gridRow: '1', gridColumn: '1' }}
         />
-        <div className="banner-title">
+        <div
+          className="banner-title fadeInDown"
+          data-anime="scroll"
+          data-anime-time="200"
+        >
           <HeaderTitle
             text={text}
             hx={hx}

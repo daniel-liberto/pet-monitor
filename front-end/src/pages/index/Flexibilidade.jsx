@@ -2,8 +2,8 @@ import React from 'react';
 import HeaderTitle from '../../global/HeaderTitle';
 import './Flexibilidade.css';
 import '../../mobile/FlexibilidadeMobile.css';
-import animalDomestico from '../../img/fotos/animalDomestico.jpg';
-import animalCampo from '../../img/fotos/animalCampo.jpg';
+import animalDomestico from '../../img/fotos/animalDomestico.webp';
+import animalCampo from '../../img/fotos/animalCampo.webp';
 import Btn from '../../global/Btn';
 
 const Flexibilidade = () => {
@@ -30,41 +30,6 @@ const Flexibilidade = () => {
           </span>
         </p>
         <div className="grid-flexibilidade">
-          <div
-            className="plano-desc bg-domestico fadeInUp"
-            data-anime="scroll"
-            data-anime-time="100"
-          >
-            <HeaderTitle
-              hx="h2"
-              text="Plano Doméstico"
-              fontSize="42"
-              textAlign="center"
-              color="#107910"
-              content="''"
-            />
-            <p className="quote-flexibilidade">
-              Todos sabem que não somos nós que escolhemos nossos animais de
-              estimação. E sim,{' '}
-              <span className="enfase-quote">eles que nos escolhem</span> com
-              seu <span className="enfase-quote">carinho</span> e{' '}
-              <span className="enfase-quote">amor verdadeiro</span> que só eles
-              possuem.
-            </p>
-            <p className="text-call-flexibilidade">
-              Proteja hoje mesmo seu membro valioso da família!
-            </p>
-            <Btn padding="10px 12px" margin="0" url="/info">
-              Conferir planos
-            </Btn>
-          </div>
-          <div
-            className="config-img domestico-img fadeInUp"
-            data-anime="scroll"
-            data-anime-time="100"
-          >
-            <img src={animalDomestico} alt="" />
-          </div>
           <div
             className="config-img campo-img fadeInUp"
             data-anime="scroll"
@@ -99,10 +64,45 @@ const Flexibilidade = () => {
               padding="10px 12px"
               margin="0"
               backgroundColor="rgb(80, 50, 30)"
-              url="/info"
+              url="/pet-monitor/info"
             >
               Conferir planos
             </Btn>
+          </div>
+          <div
+            className="plano-desc bg-domestico fadeInUp"
+            data-anime="scroll"
+            data-anime-time="100"
+          >
+            <HeaderTitle
+              hx="h2"
+              text="Plano Doméstico"
+              fontSize="42"
+              textAlign="center"
+              color="#107910"
+              content="''"
+            />
+            <p className="quote-flexibilidade">
+              Todos sabem que não somos nós que escolhemos nossos animais de
+              estimação. E sim,{' '}
+              <span className="enfase-quote">eles que nos escolhem</span> com
+              seu <span className="enfase-quote">carinho</span> e{' '}
+              <span className="enfase-quote">amor verdadeiro</span> que só eles
+              possuem.
+            </p>
+            <p className="text-call-flexibilidade">
+              Proteja hoje mesmo seu membro valioso da família!
+            </p>
+            <Btn padding="10px 12px" margin="0" url="/pet-monitor/info">
+              Conferir planos
+            </Btn>
+          </div>
+          <div
+            className="config-img domestico-img fadeInUp"
+            data-anime="scroll"
+            data-anime-time="100"
+          >
+            <img src={animalDomestico} alt="" />
           </div>
         </div>
         <div>

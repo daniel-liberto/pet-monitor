@@ -53,6 +53,11 @@
 
 .subgrid-avaliacao img:hover {
   width: 360px;
+  transform: rotate(-10deg);
+}
+
+.lado-direito.subgrid-avaliacao img:hover {
+  transform: rotate(10deg);
 }
 
 .subgrid-avaliacao p {

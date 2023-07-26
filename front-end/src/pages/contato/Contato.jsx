@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../global/Banner';
 import HeaderTitle from '../../global/HeaderTitle';
-import bgContato from '../../img/banners/bg-contato.jpg';
+import bgContato from '../../img/banners/bg-contato.webp';
 import './Contato.css';
 import './ContatoMobile.css';
 import outlook from '../../img/svg/outlook.svg';

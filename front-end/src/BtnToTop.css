@@ -1,0 +1,22 @@
+.btnTopContainer {
+  height: 60px;
+  width: 54px;
+  cursor: pointer;
+  background: url('./img/svg/btn-to-top.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  position: fixed;
+  border: none;
+  max-width: 100%;
+  bottom: 70px;
+  right: 50px;
+  z-index: 20;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+  transition: 0.3s ease;
+}
+
+.btnTopContainer:hover {
+  height: 78px;
+  width: 70px;
+}

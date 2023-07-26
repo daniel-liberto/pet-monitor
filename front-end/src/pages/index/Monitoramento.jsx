@@ -1,10 +1,10 @@
 import React from 'react';
 import Btn from '../../global/Btn';
 import HeaderTitle from '../../global/HeaderTitle';
-import monitoraPhone from '../../img/fotos/monitoramento-phone.png';
-import sombraPhone from '../../img/fotos/sombra-phone.png';
-import googleplay from '../../img/fotos/googleplay.png';
-import appstore from '../../img/fotos/appstore.png';
+import monitoraPhone from '../../img/fotos/monitoramento-phone.webp';
+import sombraPhone from '../../img/fotos/sombra-phone.webp';
+import googleplay from '../../img/fotos/googleplay.webp';
+import appstore from '../../img/fotos/appstore.webp';
 import './Monitoramento.css';
 import '../../mobile/MonitoramentoMobile.css';
 
@@ -47,7 +47,7 @@ const Monitoramento = () => {
                 padding="10px 16px"
                 margin="20px 0"
                 fontSize="18px"
-                url="/monitoramento"
+                url="/pet-monitor/monitoramento"
               >
                 Acesse agora
               </Btn>

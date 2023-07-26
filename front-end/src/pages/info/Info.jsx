@@ -2,13 +2,13 @@ import React from 'react';
 import Banner from '../../global/Banner';
 import './Info.css';
 import './InfoMobile.css';
-import bgInfo from '../../img/banners/bg-info.jpg';
+import bgInfo from '../../img/banners/bg-info.webp';
 import HeaderTitle from '../../global/HeaderTitle';
-import animalCampo from '../../img/info-page/bg-campo.png';
-import animalDomestico from '../../img/info-page/bg-domestico.png';
-import planoDomestico from '../../img/info-page/plano-domestico.png';
+import animalCampo from '../../img/info-page/bg-campo.webp';
+import animalDomestico from '../../img/info-page/bg-domestico.webp';
+import planoDomestico from '../../img/info-page/plano-domestico.webp';
 import planoDomesticoFigure from '../../img/info-page/plano-domestico-figure.svg';
-import planoDoCampo from '../../img/info-page/plano-campo.png';
+import planoDoCampo from '../../img/info-page/plano-campo.webp';
 import planoDoCampoFigure from '../../img/info-page/plano-campo-figure.svg';
 import Btn from '../../global/Btn';
 
@@ -33,7 +33,7 @@ const Info = () => {
             fontSize="60"
             color="#107910"
             content="'__'"
-            margin="60px auto"
+            margin="60px auto 30px auto"
             textAlign="center"
           />
         </div>
@@ -125,11 +125,12 @@ const Info = () => {
                   <sup>R$</sup>39.99
                 </p>
                 <Btn
-                  text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
-                  url="/contato"
-                />
+                  url="/pet-monitor/login"
+                >
+                  Assine agora
+                </Btn>
               </div>
             </div>
             <div className="info-plano-premium info-plano-subgrid">
@@ -159,11 +160,12 @@ const Info = () => {
                   <sup>R$</sup>79.99
                 </p>
                 <Btn
-                  text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
-                  url="/contato"
-                />
+                  url="/pet-monitor/login"
+                >
+                  Assine agora
+                </Btn>
               </div>
             </div>
           </div>
@@ -267,12 +269,13 @@ const Info = () => {
                   <sup>R$</sup>259.99
                 </p>
                 <Btn
-                  text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
                   backgroundColor="#50321E"
                   url="/contato"
-                />
+                >
+                  Assine agora
+                </Btn>
               </div>
             </div>
             <div className="info-plano-premium info-plano-subgrid camposection">
@@ -302,12 +305,13 @@ const Info = () => {
                   <sup>R$</sup>359.99
                 </p>
                 <Btn
-                  text="Assine agora"
                   padding="10px 20px"
                   fontSize="18px"
                   backgroundColor="#50321E"
                   url="/contato"
-                />
+                >
+                  Assine agora
+                </Btn>
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import HeaderTitle from '../../global/HeaderTitle';
 import './Avaliacao.css';
-import cliente1 from '../../img/fotos/cliente1.png';
-import cliente2 from '../../img/fotos/cliente2.png';
-import cliente3 from '../../img/fotos/cliente3.png';
+import cliente1 from '../../img/fotos/cliente1.webp';
+import cliente2 from '../../img/fotos/cliente2.webp';
+import cliente3 from '../../img/fotos/cliente3.webp';
 import Btn from '../../global/Btn';
 import '../../mobile/AvaliacaoMobile.css';
 
@@ -71,7 +71,7 @@ const Avaliacao = () => {
         </div>
         <div className="text-call-avaliacao">
           <p>Confira já os nossos planos para os seus negócios!</p>
-          <Btn padding="14px 24px" fontSize="20px" url="/info">
+          <Btn padding="14px 24px" fontSize="20px" url="/pet-monitor/info">
             Conferir planos
           </Btn>
         </div>

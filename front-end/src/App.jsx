@@ -13,6 +13,7 @@ import Sobre from './pages/sobre/Sobre.jsx';
 import Contato from './pages/contato/Contato.jsx';
 import Login from './pages/login/Login.jsx';
 import { UserStorage } from './UserContext.jsx';
+import BtnToTop from './BtnToTop.jsx';
 
 function App() {
   React.useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
             <Route path="pet-monitor/contato" element={<Contato />} />
             <Route path="pet-monitor/login/*" element={<Login />} />
           </Routes>
+          <Route path="/pet-monitor" element={<BtnToTop />} />
           <Route path="/pet-monitor" element={<Footer />} />
         </UserStorage>
       </BrowserRouter>
