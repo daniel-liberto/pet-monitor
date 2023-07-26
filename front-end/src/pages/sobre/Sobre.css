@@ -6,14 +6,24 @@
 .sobre-texto {
   display: grid;
   gap: 30px 0;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .sobre-texto p {
-  font-size: 24px;
+  font-size: 20px;
   color: #676767;
   line-height: 1.85rem;
 }
 
-.sobre-pug {
+.sobre-pug img {
+  width: 650px;
   margin: 60px auto 120px auto;
+  transition: 0.3s ease;
+  border-radius: 6px;
+}
+
+.sobre-pug img:hover {
+  width: 750px;
+  filter: drop-shadow(0 10px 0.5rem rgba(0, 0, 0, 0.6));
 }

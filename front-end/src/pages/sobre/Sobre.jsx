@@ -55,13 +55,13 @@ const Sobre = () => {
             Atualmente o projeto Pet Monitor teve seu{' '}
             <span className="enfase">remake em 2023</span> onde foi{' '}
             <span className="enfase">totalmente remodelado do zero</span>, desde
-            seu design até mesmo em sua estrutura e construção final sendo
-            reconstruída utilizando novas tecnologias como o uso de{' '}
+            seu design usando <span className="enfase">Figma</span>, até mesmo
+            em sua estrutura e construção final sendo reconstruída utilizando
+            novas tecnologias como o uso de{' '}
             <span className="enfase">JavaScript</span> e{' '}
-            <span className="enfase">React</span> como uma base para todo
-            projeto e também uma melhor utilização de{' '}
-            <span className="enfase">Flexbox</span> e{' '}
-            <span className="enfase">Grid layout</span>.
+            <span className="enfase">React</span> como uma base para front-end e
+            também a utilização de <span className="enfase">Python</span> e{' '}
+            <span className="enfase">MySQL</span>.
           </p>
           <p>
             O <span className="enfase">modelo original</span> de 2019 era feito
