@@ -96,7 +96,6 @@
 
 .contato-redes {
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   max-width: 300px;
 }
@@ -152,10 +151,12 @@
 
 .contato-redes li a img {
   padding: 16px 0 16px 10px;
+  transition: 0.7s ease;
 }
 
 .contato-redes li:hover a img {
   filter: drop-shadow(0 0 0.5rem rgba(0, 255, 0, 0.5)) brightness(1.5);
+  transform: translate3d(-80px, 0, 0);
 }
 
 .contato-redes li a {
@@ -164,7 +165,6 @@
 
 .contato-redes li a p {
   font-size: 14px;
-  /* max-width: 20ch; */
   position: absolute;
   top: 40%;
   right: 0;
