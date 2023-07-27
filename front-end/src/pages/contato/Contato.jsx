@@ -82,14 +82,15 @@ const Contato = () => {
               ></textarea>
 
               <Btn
-                text="Enviar Mensagem"
                 fontSize="20px"
                 margin="40px auto"
                 padding="12px 24px"
                 url="/login"
-              />
+              >
+                Enviar Mensagem
+              </Btn>
             </form>
-            <div>
+            <div className="contato-info">
               <div>
                 <HeaderTitle
                   hx="h2"
@@ -114,22 +115,25 @@ const Contato = () => {
                   color="#107910"
                   content="'__'"
                   margin="60px auto 30px auto"
-                  textAlign="start"
+                  textAlign="center"
                 />
                 <ul className="contato-redes">
                   <li>
                     <a href="/">
                       <img src={outlook} alt="" />
+                      <p>daniel.liberto@hotmail.com</p>
                     </a>
                   </li>
                   <li>
                     <a href="/">
                       <img src={linkedin} alt="" />
+                      <p>linkedin.com/in/daniel-almeida-dev</p>
                     </a>
                   </li>
                   <li>
                     <a href="/">
                       <img src={whatsapp} alt="" />
+                      <p>(18) 99806-7305</p>
                     </a>
                   </li>
                 </ul>

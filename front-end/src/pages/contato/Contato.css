@@ -4,8 +4,9 @@
 }
 
 .contato-container p {
-  font-size: 24px;
+  font-size: 20px;
   color: #676767;
+  text-align: center;
 }
 
 .contato-grid {
@@ -81,6 +82,12 @@
   z-index: 0;
 }
 
+.contato-info {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
+
 .contato-lista li {
   font-size: 20px;
   color: #676767;
@@ -89,13 +96,86 @@
 
 .contato-redes {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.contato-redes li {
+  width: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 236, 0.77) 0.01%,
+    rgba(213, 213, 213, 0.7) 0.02%,
+    rgba(225, 225, 225, 0.5) 0.03%,
+    #ffffff 48.75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+  margin: 0 auto 10px auto;
+  transition: 0.5s ease;
+  border-radius: 4px;
+  position: relative;
+}
+
+.contato-redes li:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 236, 0.87) 0.01%,
+    rgba(213, 213, 213, 0.78) 0.02%,
+    rgba(225, 225, 225, 0.56) 0.03%,
+    #ffffff 48.75%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
+  box-shadow: 1px 1px 16px rgba(200, 200, 200, 1);
+  width: 300px;
+}
+
+.contato-redes li::after {
+  content: '';
+  font-weight: 100;
+  width: auto;
+  height: auto;
+  color: #676767;
+  filter: drop-shadow(0 0 2px rgba(200, 200, 200, 0.6));
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  right: 6px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.contato-redes li:not(:hover)::after {
+  content: '>';
 }
 
 .contato-redes li a img {
-  filter: brightness(0.1);
+  padding: 16px 0 16px 10px;
 }
 
-.contato-redes li a img:hover {
-  filter: brightness(1);
+.contato-redes li:hover a img {
+  filter: drop-shadow(0 0 0.5rem rgba(0, 255, 0, 0.5)) brightness(1.5);
+}
+
+.contato-redes li a {
+  position: relative;
+}
+
+.contato-redes li a p {
+  font-size: 14px;
+  /* max-width: 20ch; */
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  color: #676767;
+  opacity: 0;
+  transition: 0.5s ease;
+  pointer-events: none;
+}
+
+.contato-redes li:hover a p {
+  opacity: 1;
 }
