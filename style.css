@@ -81,6 +81,10 @@ img {
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .enfase {
   color: #25ad25;
 }
