@@ -10,19 +10,21 @@ As principais caracteristicas do projeto são:
 
 ### Figma
 
-Foi utilizado Figma para criar o design inicial de cada etapa antes de proceder para o processo de construção em React.
+- Foi utilizado [Figma](https://www.figma.com) para criar o design inicial de cada etapa antes de proceder para o processo de construção em React.
 
 ### ReactJS
 
-Utilizando a biblioteca do ReactJS, foi possível realizar o processo de transformar os desenhos do Figma, em uma estrutura front end web funcional e responsiva.
+- Utilizando a biblioteca do [ReactJS](https://react.dev) em conjunto com os pacotes do [ViteJS](https://vitejs.dev), foi possível realizar o processo de transformar os desenhos do Figma, em uma estrutura front end web funcional e responsiva.
 
 ### Python
 
-O app web será desenvolvido utilizando a linguagem Python como backend para resolver os problemas de localização global em tempo real.
+- O app web será desenvolvido utilizando a linguagem Python como backend para resolver os problemas de localização global em tempo real com a ajuda do pacote pip de [Haversine](https://pypi.org/project/haversine).
+
+- Também será utilizado o [Postman](https://www.postman.com) em conjunto com o python para facilitar no processo de APIs REST com o ReactJS.
 
 ### MySQL
 
-Seria utilizado como banco relacional para armazenar dados dos animais cadastrados e também a sua última localização registrada.
+- Será utilizado como banco relacional para armazenar dados dos usuários e animais cadastrados, como também a sua última localização registrada.
 
 ## Requisitos para rodar o projeto
 
@@ -46,7 +48,7 @@ Seria utilizado como banco relacional para armazenar dados dos animais cadastrad
 
 ### Pacotes instalados no projeto
 
-- [Vite Latest](https://vitejs.dev) foi utilizado porque é mais leve e mais rápido que o CRA padrão do facebook.
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react) é uma extensão do Vite para rodar babel e esbuild.
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) para utilizar melhor o conceito de SPA.
-- [history](https://www.npmjs.com/package/history) para facilitar na manipulação de páginas de sessões do navegador.
+- [Vite Latest](https://vitejs.dev): foi utilizado porque é mais leve e mais rápido que o CRA padrão do facebook.
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): é uma extensão do Vite para rodar babel e esbuild.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom): para utilizar melhor o conceito de SPA.
+- [history](https://www.npmjs.com/package/history): para facilitar na manipulação de páginas de sessões do navegador.
