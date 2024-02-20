@@ -21,13 +21,23 @@
     padding-top: 40px;
   }
   .domestico-img {
-    grid-row: 1;
+    padding-top: 40px;
+    grid-row: 3;
   }
-  .domestico-img img, .campo-img img {
+  .domestico-img img,
+  .campo-img img {
     border-radius: 10px 10px 0 0;
   }
-  .bg-domestico, .bg-campo {
-    background: linear-gradient(180deg, rgba(16, 120, 16, .4) 0%, rgba(16, 121, 16, 0.1) 30%, rgba(16, 121, 16, 0.1) 70%, rgba(16, 121, 16, 0.08) 80%, rgba(16, 121, 16, 0) 100%);
+  .bg-domestico,
+  .bg-campo {
+    background: linear-gradient(
+      180deg,
+      rgba(16, 120, 16, 0.4) 0%,
+      rgba(16, 121, 16, 0.1) 30%,
+      rgba(16, 121, 16, 0.1) 70%,
+      rgba(16, 121, 16, 0.08) 80%,
+      rgba(16, 121, 16, 0) 100%
+    );
   }
   .config-img::before {
     display: none;
@@ -41,7 +51,17 @@
     font-size: 0.65rem;
   }
   .plano-desc {
-    padding: 0 0 20px 0 ;
+    padding: 0 0 20px 0;
+  }
+  .plano-desc.bg-campo {
+    background: linear-gradient(
+      180deg,
+      rgba(80, 50, 30, 0.4) 0%,
+      rgba(80, 50, 30, 0.2) 30%,
+      rgba(80, 50, 30, 0.1) 70%,
+      rgba(80, 50, 30, 0.08) 80%,
+      rgba(80, 50, 30, 0) 100%
+    );
   }
   .plano-desc button {
     padding: 12px 10px !important;

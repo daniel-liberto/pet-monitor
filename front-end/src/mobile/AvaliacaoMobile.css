@@ -6,18 +6,18 @@
   }
   .grid-avaliacao {
     grid-template-columns: 96%;
-    gap: 50px 0 ;
+    gap: 50px 0;
     margin: 60px auto;
     justify-content: center;
   }
   .bg-avaliacao {
-    background: rgba(0, 48, 0, .8);
+    background: rgba(0, 48, 0, 0.8);
     max-width: 100%;
     border-radius: 6px;
-    box-shadow: inset 110px 10px  #ffffff, inset -30px -10px #ffffff;
+    box-shadow: inset 110px 10px #ffffff, inset -30px -10px #ffffff;
   }
   .bg-avaliacao.lado-direito {
-  box-shadow: inset 28px 10px #ffffff, inset -114px -14px #ffffff;
+    box-shadow: inset 28px 10px #ffffff, inset -114px -14px #ffffff;
   }
   .subgrid-avaliacao {
     grid-template-columns: 80px 1fr 1fr;
@@ -33,7 +33,7 @@
     border-radius: 50%;
     object-fit: cover;
     /* box-shadow: 0px 2px 6px rgba(16, 121, 16, .6); */
-    outline: 4px solid rgba(0, 160, 0, .2);
+    outline: 4px solid rgba(0, 160, 0, 0.2);
     outline-offset: -0.05rem;
   }
   .subgrid-avaliacao img:hover {
@@ -48,8 +48,9 @@
     grid-column: 2 / 4;
     text-shadow: 1px 1px black;
   }
-  .subgrid-avaliacao p::before, .subgrid-avaliacao p::after {
-    opacity: .2;
+  .subgrid-avaliacao p::before,
+  .subgrid-avaliacao p::after {
+    opacity: 0.2;
   }
   .subgrid-avaliacao p::before {
     left: -12%;
@@ -66,9 +67,9 @@
     max-width: 60px;
     top: 0%;
     padding-top: 70px;
-    color: rgba(0, 160, 0, .6);
+    color: rgba(0, 160, 0, 0.6);
     text-align: center;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
     /* color: rgba(0, 0, 0, .7); */
     font-size: 14px;
     /* font-style: normal; */
@@ -95,6 +96,6 @@
     font-size: 14px;
   }
   .text-call-avaliacao button {
-    padding: 4px 12px 10px 12px !important;
+    padding: 10px 12px 10px 12px !important;
   }
 }

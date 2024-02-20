@@ -1,0 +1,19 @@
+DATABASE-INFO
+USER
+  id				INT PRIMARY_KEY UNIQUE AUTO_INCREMENTAL
+  firstName			VARCHAR(50) NOT_NULL
+  lastName			VARCHAR(50) NOT_NULL
+  username			VARCHAR(50) NOT_NULL
+  password			VARCHAR(100) NOT_NULL
+  user_photo_url		VARCHAR(255)
+  user_location_app		VARCHAR(100)
+
+ANIMAL
+  id				INT PRIMARY_KEY UNIQUE AUTO_INCREMENTAL
+  name				VARCHAR(50) NOT_NULL
+  age				VARCHAR(50)
+  animal_photo_url		VARCHAR(255)
+  animal_type(cat/dog/etc)	VARCHAR(50)
+  animal_plan(rural/urbano)	VARCHAR(50) NOT_NULL
+  last_location_app		VARCHAR(50)
+  last-seen-date_app		VARCHAR(50)
